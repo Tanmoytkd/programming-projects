@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1435084923 source:c:\users\tanmoy\desktop\projects\protected and inheritence\base.cpp
+	<iostream>
+	"base.h"
+	"derived.h"
+
+1435085128 c:\users\tanmoy\desktop\projects\protected and inheritence\base.h
+
+1435085128 c:\users\tanmoy\desktop\projects\protected and inheritence\derived.h
+
+1435085128 source:c:\users\tanmoy\desktop\projects\protected and inheritence\main.cpp
+	<iostream>
+	"base.h"
+	"derived.h"
+
+1435085240 source:c:\users\tanmoy\desktop\projects\protected and inheritence\derived.cpp
+	<iostream>
+	"base.h"
+	"derived.h"
+

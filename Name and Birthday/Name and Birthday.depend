@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1435042642 source:c:\users\tanmoy\desktop\projects\name and birthday\birthday.cpp
+	<iostream>
+	"Birthday.h"
+
+1435042642 c:\users\tanmoy\desktop\projects\name and birthday\birthday.h
+
+1435046731 source:c:\users\tanmoy\desktop\projects\name and birthday\main.cpp
+	<iostream>
+	<string>
+	"Birthday.h"
+	"Birthday.h"
+	"people.h"
+
+1435044784 c:\users\tanmoy\desktop\projects\name and birthday\people.h
+	<iostream>
+	<string>
+	"Birthday.h"
+
+1435044922 source:c:\users\tanmoy\desktop\projects\name and birthday\people.cpp
+	"people.h"
+

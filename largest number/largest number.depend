@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1438844582 source:c:\users\tanmoy\desktop\projects\largest number\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	<sstream>
+
+1439625713 source:g:\tanmoytkd\projects\largest number\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	<sstream>
+	<cstdlib>
+	<ctime>
+

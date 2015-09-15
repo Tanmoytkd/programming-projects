@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1436272904 source:c:\users\tanmoy\desktop\projects\numbers\main.cpp
+	<iostream>
+	<math.h>
+	<string>
+	<fstream>
+

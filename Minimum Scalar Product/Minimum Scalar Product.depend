@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1436259503 source:c:\users\tanmoy\desktop\projects\minimum scalar product\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+

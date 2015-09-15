@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1436192170 source:c:\users\tanmoy\desktop\projects\store credit\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+

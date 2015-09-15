@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1439049591 source:c:\users\tanmoy\desktop\projects\isomorphic strings 2\main.cpp
+	<iostream>
+	<string>
+	<vector>
+

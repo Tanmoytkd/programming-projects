@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1434478981 source:c:\users\tanmoy\desktop\projects\member initializer\main.cpp
+	<iostream>
+	"person.h"
+
+1434478981 c:\users\tanmoy\desktop\projects\member initializer\person.h
+
+1434479119 source:c:\users\tanmoy\desktop\projects\member initializer\person.cpp
+	<iostream>
+	"person.h"
+
