@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1455248959 source:g:\tanmoytkd\projects\even fibonacci p.e #2\main.c
+	<stdio.h>
+	<stdlib.h>
+
