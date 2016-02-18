@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1455789485 source:g:\tanmoytkd\projects\summation of primes p.e #10\main.c
+	<stdio.h>
+	<stdlib.h>
+	<inttypes.h>
+
