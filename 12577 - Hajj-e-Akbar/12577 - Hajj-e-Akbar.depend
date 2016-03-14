@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1457611596 source:g:\tanmoytkd\projects\12577 - hajj-e-akbar\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
