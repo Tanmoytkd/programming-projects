@@ -8,11 +8,11 @@ int main()
     freopen("output.txt", "w", stdout);
     #endif
 
-    int n, m;
-    while(scanf("%d %d", &n, &m)==2) {
+    int a, b;
+    while(scanf("%d %d", &a, &b)==2) {
         int count=0;
-        while(n<=m) {
-            int i=n, j, digits[10], digit;
+        while(a<=b) {
+            int i=a, j, digits[10], digit;
             for(j=0; j<10; j++) {
                 digits[j]=0;
             }
@@ -23,7 +23,7 @@ int main()
                 i/=10;
             }
             if(i==0) count++;
-            n++;
+            a++;
         }
         printf("%d\n", count);
     }

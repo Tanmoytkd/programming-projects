@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1458888046 source:g:\tanmoytkd\projects\10420 - list of conquests\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<cstdio>
+
