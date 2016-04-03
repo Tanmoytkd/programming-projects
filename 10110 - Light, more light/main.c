@@ -1,28 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 int main()
 {
-    unsigned int n;
+    #ifdef TKD
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+    #endif
+    unsigned int n, res;
     while(1) {
         scanf("%u", &n);
         if(n==0) break;
-        int status=1, i;
 
-        while(1) {
-            while(n%2==0) {
-                n/=2;
-                status=(status==0) ? 1:0;
-            }
-            for(i=3; i<=n; i+=2) {
-                while(n%i==0) {
-                    n/=i;
-                    status= (status==0) ? 1:0;
-                }
-            }
-            if(n==1) break;
-        }
-        if(status==1) printf("yes\n");
+        res = sqrt(n);
+
+        if(res*res==n) printf("yes\n");
         else printf("no\n");
     }
     return 0;
