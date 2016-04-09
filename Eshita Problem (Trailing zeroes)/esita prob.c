@@ -1,26 +1,27 @@
 #include<stdio.h>
+
 int main()
 {
-    int n=200,i,j=0,x,sum=0;
+    int testcase;
+    scanf("%d", &testcase);
+    int m;
+    for(m=1; m<=testcase; m++)
+    {
 
-for(i=1;i<=n;i++)
-{
-    if(i%5==0){
-        x=i;
-        for(;;)
+        int n,i,sum=0;
+        scanf("%d", &n);
+
+        for(i=1; i<=n; i++)
         {
-
-            if(x%5==0){j++;x=x/5;}
-            else break;
+            int x=i;
+            while(x%5==0)
+            {
+                sum++;
+                x=x/5;
+            }
         }
-
+        printf("%d\n",sum);
     }
 
-
-
-}
-printf("%d\n",j);
-
-return 0;
-
+    return 0;
 }
