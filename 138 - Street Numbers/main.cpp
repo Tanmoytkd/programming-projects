@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <conio.h>
 
 using namespace std;
 
@@ -26,9 +27,14 @@ int main()
             printf("%10d %10d\n", house, last);
             i++;
             house*=2;
+            sum=(house-1)*(house-2)/2;
         }
-        else
+        else {
+            printf("%10d %10d %10d\n", house, last, tempsum);
+            getch();
             house++;
+        }
+
     }
 
     return 0;
