@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1461988821 source:g:\tanmoytkd\projects\138 - street numbers\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<conio.h>
+

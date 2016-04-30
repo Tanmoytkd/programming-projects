@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <conio.h>
 
 using namespace std;
 
@@ -9,23 +10,25 @@ int main()
     freopen("output.txt", "w", stdout);
     #endif
 
-    int house=2, sum=-1, last=house, i=0;
+    int house=1, sum=0, last, i=0;
 
     while(i<10) {
-        sum+= house-1+house;
+        sum+= house-1;
         int tempsum=sum;
 
-        while(tempsum>=last) {
+        last=house+1;
+        tempsum-=last;
+        while(tempsum>0) {
             last++;
             tempsum-=last;
         }
 
-        if(tempsum==1) {
-            printf("%10d%10d\n", house, last);
+        if(tempsum==0) {
+            printf("%10d %10d\n", house, last);
             i++;
         }
         house++;
-        sum=tempsum;
+
     }
 
     return 0;
