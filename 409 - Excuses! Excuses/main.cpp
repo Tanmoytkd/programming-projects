@@ -38,16 +38,19 @@ int main() {
             getline(cin, data);
             key[data]=1;
         }
-
         for(int i=0; i<e; i++) {
             getline(cin, data);
             exc[i]=data;
-            stringstream ss(data);
-            string word;
-            while(ss>>word) {
+            int pos=0, len=data.length();
+            while(pos<len) {
+                int start=1;
                 string newword="";
-                for(int j=0; j<word.length(); j++){
-                    if(isalpha(word[j])) newword+=tolower(word[j]);
+                for(; pos<len; pos++) {
+                    if(isalpha(data[pos])) {
+                        if(start) start=0;
+                        newword+=tolower(data[pos]);
+                    }
+                    else if(start) continue;
                     else break;
                 }
                 if(key.find(newword)!=key.end()) {
