@@ -9,6 +9,12 @@ string trim(string &val, int n=0) {
     return val.substr(i);
 }
 
+char toogle(char ch) {
+    if(ch=='+') return '-';
+    else if(ch=='-') return '+';
+    else return ch;
+}
+
 class bigInt {
     private:
     string value;
@@ -104,7 +110,8 @@ class bigInt {
         string sum="";
         int carry=0;
 
-        if(large.length()<small.length()) small.swap(large);
+        int compare=large.compare(small);
+        if(compare<1) large.swap(small);
 
         int i=large.length()-1, j=small.length()-1, digsum;
 
@@ -127,7 +134,8 @@ class bigInt {
     string difference(string large, string small) {
         string diff="";
 
-        if(large.length()<small.length()) large.swap(small);
+        int compare=large.compare(small);
+        if(compare<1) large.swap(small);
 
         reverse(small.begin(), small.end());
         reverse(large.begin(), large.end());
@@ -159,18 +167,8 @@ class bigInt {
         return diff;
     }
 
-    bigInt operator- (bigInt num) {
-        string numval=num.strval();
-        if(sign==num.strsign()) {
-            if(value>numval) {
-                string diff=difference(value, numval);
-                return bigInt (sign, diff);
-            }
-        }
-    }
 
     bigInt operator+ (bigInt num) {
-
         string sum, numval=num.strval();
         char newsign;
         if(sign==num.strsign()) {
@@ -190,11 +188,36 @@ class bigInt {
 
     template<class T>
     bigInt operator+ (T x) {
-        bigInt num(x);
+        bigInt num1(sign, value);
+        bigInt num2(x);
+        return num1+num2;
+    }
+
+    bigInt operator- (bigInt num) {
+        string numval=num.strval(), diff;
+
         if(sign==num.strsign()) {
-            string sum = add(value, num.strval());
-            return bigInt(sign, sum);
+            diff=difference(value, numval);
+            int compare = value.compare(num.strval());
+            if(compare>0) {
+                return bigInt (sign, diff);
+            }
+            else if(compare<0) {
+                return bigInt(toogle(sign), diff);
+            }
+            else return bigInt('+', diff);
         }
+        else {
+            diff=add(value, numval);
+            return bigInt(sign, diff);
+        }
+    }
+
+    template<class T>
+    bigInt operator- (T x) {
+        bigInt num1(sign, value);
+        bigInt num2(x);
+        return num1-num2;
     }
 };
 
@@ -204,10 +227,12 @@ int main()
     cin >> s1 >> s2;
     bigInt x(s1), y(s2), difference, sum;
     sum=x+y;
-    //difference=x-y;
-    //if(sum.strsign()=='-')
-    cout << sum.strsign();
+    difference=x-y;
+
+    if(sum.strsign()=='-') cout << sum.strsign();
     cout << sum.strval() << endl;
-    //cout << difference.strval() << endl;
+
+    if(difference.strsign()=='-') cout << difference.strsign();
+    cout << difference.strval() << endl;
     return 0;
 }
