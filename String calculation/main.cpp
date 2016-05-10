@@ -11,8 +11,8 @@ string trim(string &val, int n=0) {
 
 class bigInt {
     private:
-    string value="";
-    char sign='+';
+    string value;
+    char sign;
 
     public:
     bigInt() {
@@ -129,31 +129,62 @@ class bigInt {
 
         if(large.length()<small.length()) large.swap(small);
 
-        int i=0;
+        reverse(small.begin(), small.end());
+        reverse(large.begin(), large.end());
 
-        for(; i<small.length(); i++) {
-            if(large[i]>=small[i]) sum+= '0'+ large[i]-small[i];
+        int i=0, slen=small.length(), llen=large.length();
+
+        for(; i<slen; i++) {
+            if(large[i]>=small[i]) diff+= '0'+ large[i]-small[i];
             else {
-                sum += '0'+10+large[i]-small[i];
+                diff += '0'+10+large[i]-small[i];
                 large[i+1]--;
             }
         }
 
-        for(; i<large.length(); i++) {
-            if(large[i]>='0') sum+=large[i];
+        for(; i<llen; i++) {
+            if(large[i]>='0') diff+=large[i];
             else {
-                sum+='0'+large[i]+10;
+                diff+=large[i]+10;
                 large[i+1]--;
             }
         }
 
+        reverse(diff.begin(), diff.end());
+        unsigned int j=0;
+        for(; j<diff.length()-1; j++) {
+            if(diff[j]!='0') break;
+        }
+        diff = diff.substr(j);
+        return diff;
+    }
 
+    bigInt operator- (bigInt num) {
+        string numval=num.strval();
+        if(sign==num.strsign()) {
+            if(value>numval) {
+                string diff=difference(value, numval);
+                return bigInt (sign, diff);
+            }
+        }
     }
 
     bigInt operator+ (bigInt num) {
+
+        string sum, numval=num.strval();
+        char newsign;
         if(sign==num.strsign()) {
-            string sum = add(value, num.strval());
+            sum = add(value, numval);
             return bigInt(sign, sum);
+        }
+        else {
+            sum = difference(value, numval);
+            int compare = value.compare(numval);
+            if(compare>0) newsign=sign;
+            else if(compare<0) newsign=num.strsign();
+            else newsign='+';
+
+            return bigInt(newsign, sum);
         }
     }
 
@@ -171,8 +202,12 @@ int main()
 {
     string s1, s2;
     cin >> s1 >> s2;
-    bigInt x(s1), y(s2), sum;
+    bigInt x(s1), y(s2), difference, sum;
     sum=x+y;
+    //difference=x-y;
+    //if(sum.strsign()=='-')
+    cout << sum.strsign();
     cout << sum.strval() << endl;
+    //cout << difference.strval() << endl;
     return 0;
 }
