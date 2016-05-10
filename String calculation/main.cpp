@@ -3,18 +3,6 @@
 
 using namespace std;
 
-string trim(string &val, int n=0) {
-    int i=n, len=val.length()-1;
-    for(; i<len-1; i++) if(val[i]!='0') break;
-    return val.substr(i);
-}
-
-char toogle(char ch) {
-    if(ch=='+') return '-';
-    else if(ch=='-') return '+';
-    else return ch;
-}
-
 class bigInt {
     private:
     string value;
@@ -67,6 +55,18 @@ class bigInt {
 
     char strsign() {
         return sign;
+    }
+
+    string trim(string &val, int n=0) {
+        int i=n, len=val.length()-1;
+        for(; i<len-1; i++) if(val[i]!='0') break;
+        return val.substr(i);
+    }
+
+    char toogle(char ch) {
+        if(ch=='+') return '-';
+        else if(ch=='-') return '+';
+        else return ch;
     }
 
     template<typename T>
