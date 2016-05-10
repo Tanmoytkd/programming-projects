@@ -54,62 +54,7 @@ class bigInt {
         reverse(val.begin(), val.end());
         value=val;
     }
-/*
-    bigInt(int x) {
-        if(x<0) {
-            sign='-';
-            x=0-x;
-        }
-        else sign='+';
 
-        string val="";
-        while(x) {
-            val+= '0' + x%10;
-            x/=10;
-        }
-        reverse(val.begin(), val.end());
-        value=val;
-    }
-
-    bigInt(unsigned int x) {
-        sign='+';
-
-        string val="";
-        while(x) {
-            val+= '0' + x%10;
-            x/=10;
-        }
-        reverse(val.begin(), val.end());
-        value=val;
-    }
-
-    bigInt(long long x) {
-        if(x<0) {
-            sign='-';
-            x=0-x;
-        }
-        else sign='+';
-
-        string val="";
-        while(x) {
-            val+= '0' + x%10;
-            x/=10;
-        }
-        reverse(val.begin(), val.end());
-        value=val;
-    }
-
-    bigInt(unsigned long long x) {
-        string val="";
-        while(x) {
-            val+= '0' + x%10;
-            x/=10;
-        }
-        reverse(val.begin(), val.end());
-        value=val;
-        sign='+';
-    }
-*/
     string strval() {
         return value;
     }
@@ -134,59 +79,6 @@ class bigInt {
         reverse(val.begin(), val.end());
         value=val;
     }
-
-    /*
-    void operator= (int x) {
-        if(x<0) {
-            sign='-';
-            x=0-x;
-        }
-        else sign='+';
-
-        string val="";
-        while(x) {
-            val+= '0' + x%10;
-            x/=10;
-        }
-        reverse(val.begin(), val.end());
-        value=val;
-    }
-
-    void operator= (unsigned int x) {
-        sign='+';
-
-        string val="";
-        while(x) {
-            val+= '0' + x%10;
-            x/=10;
-        }
-        reverse(val.begin(), val.end());
-        value=val;
-    }
-
-    void operator= (long long x) {
-        string val="";
-        while(x) {
-            val+= '0' + x%10;
-            x/=10;
-        }
-        reverse(val.begin(), val.end());
-        value=val;
-        if(x<0) sign='-';
-        else sign='+';
-    }
-
-    void operator= (unsigned long long x) {
-        string val="";
-        while(x) {
-            val+= '0' + x%10;
-            x/=10;
-        }
-        reverse(val.begin(), val.end());
-        value=val;
-        sign='+';
-    }
-    */
 
     void operator= (string &val) {
         if(val[0]=='-') {
@@ -232,6 +124,32 @@ class bigInt {
         return sum;
     }
 
+    string difference(string large, string small) {
+        string diff="";
+
+        if(large.length()<small.length()) large.swap(small);
+
+        int i=0;
+
+        for(; i<small.length(); i++) {
+            if(large[i]>=small[i]) sum+= '0'+ large[i]-small[i];
+            else {
+                sum += '0'+10+large[i]-small[i];
+                large[i+1]--;
+            }
+        }
+
+        for(; i<large.length(); i++) {
+            if(large[i]>='0') sum+=large[i];
+            else {
+                sum+='0'+large[i]+10;
+                large[i+1]--;
+            }
+        }
+
+
+    }
+
     bigInt operator+ (bigInt num) {
         if(sign==num.strsign()) {
             string sum = add(value, num.strval());
@@ -252,8 +170,8 @@ class bigInt {
 int main()
 {
     string s1, s2;
-    cin >> s1;
-    bigInt x(s1), y(1), sum;
+    cin >> s1 >> s2;
+    bigInt x(s1), y(s2), sum;
     sum=x+y;
     cout << sum.strval() << endl;
     return 0;
