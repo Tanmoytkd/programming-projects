@@ -167,6 +167,35 @@ class bigInt {
         return diff;
     }
 
+    string multiply(string val, string numval) {
+        string result="";
+        int l1=val.length(), l2=numval.length(), len=l1+l2;
+        for(int i=0; i<len; i++) result+='0';
+
+        reverse(val.begin(), val.end());
+        reverse(numval.begin(), numval.end());
+
+        int n1, n2, product, k=0, carry=0, pos=0;
+        for(int i=0; i<l1; i++) {
+            k=i;
+            n1=val[i]-'0';
+            for(int j=0; j<l2; j++, k++) {
+                n2=numval[j]-'0';
+                product=n1*n2+carry+(result[k]-'0');
+                result[k]=product%10+'0';
+                carry=product/10;
+            }
+            for(; carry>0; k++) {
+                product=(result[k]-'0')+carry;
+                result[k]=product%10+'0';
+                carry=product/10;
+            }
+        }
+        reverse(result.begin(), result.end());
+        for(pos=0; pos<len; pos++) if(result[pos]!='0') break;
+        result=result.substr(pos);
+        return result;
+    }
 
     bigInt operator+ (bigInt num) {
         string sum, numval=num.strval();
@@ -219,20 +248,38 @@ class bigInt {
         bigInt num2(x);
         return num1-num2;
     }
+
+    bigInt operator* (bigInt num) {
+        string res=multiply(value, num.strval());
+        if(sign==num.strsign()) return bigInt('+', res);
+        else return bigInt('-', res);
+    }
+
+    template<class T>
+    bigInt operator* (T x) {
+        bigInt num1(sign, value);
+        bigInt num2(x);
+        return num1*num2;
+    }
 };
 
 int main()
 {
-    string s1, s2;
+    string s1;
+    int s2;
     cin >> s1 >> s2;
-    bigInt x(s1), y(s2), difference, sum;
+    bigInt x(s1), y(s2), difference, sum, product;
     sum=x+y;
     difference=x-y;
+    product=x*y;
 
     if(sum.strsign()=='-') cout << sum.strsign();
     cout << sum.strval() << endl;
 
     if(difference.strsign()=='-') cout << difference.strsign();
     cout << difference.strval() << endl;
+
+    if(product.strsign()=='-') cout << product.strsign();
+    cout << product.strval() << endl;
     return 0;
 }
