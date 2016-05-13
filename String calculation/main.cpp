@@ -192,7 +192,7 @@ class bigInt {
             }
         }
         reverse(result.begin(), result.end());
-        for(pos=0; pos<len; pos++) if(result[pos]!='0') break;
+        for(pos=0; pos<len-1; pos++) if(result[pos]!='0') break;
         result=result.substr(pos);
         return result;
     }
@@ -268,10 +268,11 @@ int main()
     string s1;
     int s2;
     cin >> s1 >> s2;
-    bigInt x(s1), y(s2), difference, sum, product;
+    bigInt x(s1), y(s2), difference, sum, product, result;
     sum=x+y;
     difference=x-y;
     product=x*y;
+    //result=y-(x-y);
 
     if(sum.strsign()=='-') cout << sum.strsign();
     cout << sum.strval() << endl;
@@ -281,5 +282,8 @@ int main()
 
     if(product.strsign()=='-') cout << product.strsign();
     cout << product.strval() << endl;
+
+    //if(result.strsign()=='-') cout << result.strsign();
+    //cout << result.strval() << endl;
     return 0;
 }
