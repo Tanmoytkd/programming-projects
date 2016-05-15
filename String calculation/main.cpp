@@ -197,6 +197,15 @@ class bigInt {
         return result;
     }
 
+    string divide(string large, const string small) {
+        if(large.compare(small)<0) {
+            string zero="0";
+            return zero;
+        }
+
+
+    }
+
     bigInt operator+ (bigInt num) {
         string sum, numval=num.strval();
         char newsign;
@@ -251,6 +260,7 @@ class bigInt {
 
     bigInt operator* (bigInt num) {
         string res=multiply(value, num.strval());
+        if(res=="0") return bigInt('+', res);
         if(sign==num.strsign()) return bigInt('+', res);
         else return bigInt('-', res);
     }
@@ -261,6 +271,8 @@ class bigInt {
         bigInt num2(x);
         return num1*num2;
     }
+
+
 };
 
 int main()
