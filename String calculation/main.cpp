@@ -9,6 +9,19 @@ class bigInt {
     char sign;
 
     public:
+    string trim(string &val, int n=0) {
+        int i=n, len=val.length()-1;
+        for(; i<len-1; i++) if(val[i]!='0') break;
+        val=val.substr(i);
+        return val;
+    }
+
+    char toogle(char ch) {
+        if(ch=='+') return '-';
+        else if(ch=='-') return '+';
+        else return ch;
+    }
+
     bigInt() {
     }
 
@@ -55,18 +68,6 @@ class bigInt {
 
     char strsign() {
         return sign;
-    }
-
-    string trim(string &val, int n=0) {
-        int i=n, len=val.length()-1;
-        for(; i<len-1; i++) if(val[i]!='0') break;
-        return val.substr(i);
-    }
-
-    char toogle(char ch) {
-        if(ch=='+') return '-';
-        else if(ch=='-') return '+';
-        else return ch;
     }
 
     template<typename T>
@@ -128,7 +129,7 @@ class bigInt {
         if(carry==1) sum+='1';
 
         reverse(sum.begin(), sum.end());
-        return sum;
+        return trim(sum);
     }
 
     string difference(string large, string small) {
@@ -159,12 +160,7 @@ class bigInt {
         }
 
         reverse(diff.begin(), diff.end());
-        unsigned int j=0;
-        for(; j<diff.length()-1; j++) {
-            if(diff[j]!='0') break;
-        }
-        diff = diff.substr(j);
-        return diff;
+        return trim(diff);
     }
 
     string multiply(string val, string numval) {
@@ -175,7 +171,7 @@ class bigInt {
         reverse(val.begin(), val.end());
         reverse(numval.begin(), numval.end());
 
-        int n1, n2, product, k=0, carry=0, pos=0;
+        int n1, n2, product, k=0, carry=0;
         for(int i=0; i<l1; i++) {
             k=i;
             n1=val[i]-'0';
@@ -192,9 +188,7 @@ class bigInt {
             }
         }
         reverse(result.begin(), result.end());
-        for(pos=0; pos<len-1; pos++) if(result[pos]!='0') break;
-        result=result.substr(pos);
-        return result;
+        return trim(result);
     }
 
     string divide(string large, const string small) {
@@ -203,7 +197,38 @@ class bigInt {
             return zero;
         }
 
+        string result="", newlarge="";
+        int i=0, largelen=large.length();
 
+        while(newlarge.length()<small.length() && i<largelen) {
+            newlarge+=large[i];
+            i++;
+        }
+
+        int num=0;
+        while(i<largelen) {
+            while(newlarge.compare(small)>=0) {
+                newlarge=difference(newlarge, small);
+                num++;
+            }
+            result+='0'+num;
+            num=0;
+            if(i<largelen) {
+                newlarge+=large[i];
+                i++;
+            }
+            while(newlarge.length()<small.length() && i<largelen) {
+                newlarge+=large[i];
+                i++;
+            }
+        }
+        while(newlarge.compare(small)>=0) {
+            newlarge=difference(newlarge, small);
+            num++;
+        }
+        result+='0'+num;
+        num=0;
+        return trim(result);
     }
 
     bigInt operator+ (bigInt num) {
@@ -272,19 +297,40 @@ class bigInt {
         return num1*num2;
     }
 
+    bigInt operator/ (bigInt num) {
+        string res=divide(value, num.strval());
+        if(res=="0") return bigInt('+', res);
+        if(sign==num.strsign()) return bigInt('+', res);
+        else return bigInt('-', res);
+    }
 
+    template<class T>
+    bigInt operator/ (T x) {
+        bigInt num1(sign, value);
+        bigInt num2(x);
+        return num1/num2;
+    }
 };
 
 int main()
 {
     string s1;
-    int s2;
-    cin >> s1 >> s2;
-    bigInt x(s1), y(s2), difference, sum, product, result;
+    int y;
+    cin >> s1 >> y;
+    bigInt x(s1), difference, sum, product, div, result;
     sum=x+y;
     difference=x-y;
     product=x*y;
+    div=x/y;
     //result=y-(x-y);
+
+    cout << "x" << endl;
+    if(x.strsign()=='-') cout << x.strsign();
+    cout << x.strval() << endl << endl;
+
+    /*cout << "y" << endl;
+    if(y.strsign()=='-') cout << y.strsign();
+    cout << y.strval() << endl << endl;*/
 
     if(sum.strsign()=='-') cout << sum.strsign();
     cout << sum.strval() << endl;
@@ -294,6 +340,9 @@ int main()
 
     if(product.strsign()=='-') cout << product.strsign();
     cout << product.strval() << endl;
+
+    if(div.strsign()=='-') cout << div.strsign();
+    cout << div.strval() << endl;
 
     //if(result.strsign()=='-') cout << result.strsign();
     //cout << result.strval() << endl;
