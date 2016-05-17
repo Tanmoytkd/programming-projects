@@ -9,9 +9,15 @@ class bigInt {
     char sign;
 
     public:
+    int strcompare(const string &x, const string &y) {
+        if(x.length()>y.length()) return 1;
+        else if(x.length()<y.length()) return -1;
+        else return x.compare(y);
+    }
+
     string trim(string &val, int n=0) {
         int i=n, len=val.length()-1;
-        for(; i<len-1; i++) if(val[i]!='0') break;
+        for(; i<len; i++) if(val[i]!='0') break;
         val=val.substr(i);
         return val;
     }
@@ -111,8 +117,7 @@ class bigInt {
         string sum="";
         int carry=0;
 
-        int compare=large.compare(small);
-        if(compare<1) large.swap(small);
+        if(strcompare(large, small)<0) large.swap(small);
 
         int i=large.length()-1, j=small.length()-1, digsum;
 
@@ -135,8 +140,7 @@ class bigInt {
     string difference(string large, string small) {
         string diff="";
 
-        int compare=large.compare(small);
-        if(compare<1) large.swap(small);
+        if(strcompare(large, small)<0) large.swap(small);
 
         reverse(small.begin(), small.end());
         reverse(large.begin(), large.end());
@@ -192,7 +196,7 @@ class bigInt {
     }
 
     string divide(string large, const string small) {
-        if(large.compare(small)<0) {
+        if(strcompare(large,small)<0) {
             string zero="0";
             return zero;
         }
@@ -207,7 +211,7 @@ class bigInt {
 
         int num=0;
         while(i<largelen) {
-            while(newlarge.compare(small)>=0) {
+            while(strcompare(newlarge,small)>=0) {
                 newlarge=difference(newlarge, small);
                 num++;
             }
@@ -222,7 +226,7 @@ class bigInt {
                 i++;
             }
         }
-        while(newlarge.compare(small)>=0) {
+        while(strcompare(newlarge,small)>=0) {
             newlarge=difference(newlarge, small);
             num++;
         }
@@ -240,7 +244,7 @@ class bigInt {
         }
         else {
             sum = difference(value, numval);
-            int compare = value.compare(numval);
+            int compare = strcompare(value, numval);
             if(compare>0) newsign=sign;
             else if(compare<0) newsign=num.strsign();
             else newsign='+';
@@ -261,7 +265,7 @@ class bigInt {
 
         if(sign==num.strsign()) {
             diff=difference(value, numval);
-            int compare = value.compare(num.strval());
+            int compare = strcompare(value, numval);
             if(compare>0) {
                 return bigInt (sign, diff);
             }
@@ -314,6 +318,16 @@ class bigInt {
 
 int main()
 {
+//    string s1="10", s2="3", s3;
+//    bigInt x;
+//    s1=x.trim(s1);
+//    cout << s1 << " " << s2 << endl;
+//
+//    s3=x.add(s1, s2);
+//    cout << s3 << endl;
+//    s3=x.difference(s1, s2);
+//    cout << s3 << endl;
+
     string s1;
     int y;
     cin >> s1 >> y;
@@ -324,9 +338,9 @@ int main()
     div=x/y;
     //result=y-(x-y);
 
-    cout << "x" << endl;
-    if(x.strsign()=='-') cout << x.strsign();
-    cout << x.strval() << endl << endl;
+//    cout << "x" << endl;
+//    if(x.strsign()=='-') cout << x.strsign();
+//    cout << x.strval() << endl << endl;
 
     /*cout << "y" << endl;
     if(y.strsign()=='-') cout << y.strsign();
@@ -344,7 +358,7 @@ int main()
     if(div.strsign()=='-') cout << div.strsign();
     cout << div.strval() << endl;
 
-    //if(result.strsign()=='-') cout << result.strsign();
-    //cout << result.strval() << endl;
+    if(result.strsign()=='-') cout << result.strsign();
+    cout << result.strval() << endl;
     return 0;
 }
