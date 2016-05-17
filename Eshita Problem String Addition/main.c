@@ -30,7 +30,7 @@ int main()
             sumdig=x+y+carry;
             carry=sumdig/10;
 
-            sum[k]=sumdig%10;
+            sum[k]=sumdig%10+'0';
             k--;
         }
 
@@ -39,7 +39,7 @@ int main()
             sumdig=x+carry;
             carry=sumdig/10;
 
-            sum[k]=sumdig%10;
+            sum[k]=sumdig%10+'0';
             k--;
         }
 
@@ -48,7 +48,7 @@ int main()
             sumdig=y+carry;
             carry=sumdig/10;
 
-            sum[k]=sumdig%10;
+            sum[k]=sumdig%10+'0';
             k--;
         }
 
