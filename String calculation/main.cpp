@@ -195,13 +195,14 @@ class bigInt {
         return trim(result);
     }
 
-    string divide(string large, const string small) {
+    string divide(string large, const string small, string &newlarge) {
         if(strcompare(large,small)<0) {
             string zero="0";
+            newlarge=large;
             return zero;
         }
 
-        string result="", newlarge="";
+        string result="";
         int i=0, largelen=large.length();
 
         while(newlarge.length()<small.length() && i<largelen) {
@@ -233,6 +234,11 @@ class bigInt {
         result+='0'+num;
         num=0;
         return trim(result);
+    }
+
+    string divide(string large, const string small) {
+        string blank="";
+        return divide(large, small, blank);
     }
 
     bigInt operator+ (bigInt num) {
