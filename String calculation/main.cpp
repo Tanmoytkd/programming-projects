@@ -314,6 +314,7 @@ class bigInt {
     }
 
     bigInt operator/ (bigInt num) {
+        if(num==0) throw -1;
         string res=divide(value, num.strval());
         if(res=="0") return bigInt('+', res);
         if(sign==num.strsign()) return bigInt('+', res);
@@ -338,6 +339,49 @@ class bigInt {
         bigInt num2(x);
         return num1%num2;
     }
+
+    bool operator== (bigInt num) {
+        return sign==num.strsign() && value==num.strval();
+    }
+
+    template<class T>
+    bool operator== (T x) {
+        bigInt num1(sign, value);
+        bigInt num2(x);
+        return num1==num2;
+    }
+
+    bool operator!= (bigInt num) {
+        return sign!=num.strsign() || value!=num.strval();
+    }
+
+    bool operator> (bigInt num) {
+        if(sign=='+' && num.strsign()=='-') return true;
+        else if(sign=='-' && num.strsign()=='+') return false;
+        else if(sign=='+') return strcompare(value, num.strval())>0;
+        else return strcompare(value, num.strval())<0;
+    }
+
+    template<class T>
+    bool operator> (T x) {
+        bigInt num1(sign, value);
+        bigInt num2(x);
+        return num1>num2;
+    }
+
+    bool operator< (bigInt num) {
+        if(sign=='+' && num.strsign()=='-') return false;
+        else if(sign=='-' && num.strsign()=='+') return true;
+        else if(sign=='+') return strcompare(value, num.strval())<0;
+        else return strcompare(value, num.strval())>0;
+    }
+
+    template<class T>
+    bool operator< (T x) {
+        bigInt num1(sign, value);
+        bigInt num2(x);
+        return num1<num2;
+    }
 };
 
 int main()
@@ -356,6 +400,7 @@ int main()
     int y;
     cin >> s1 >> y;
     bigInt x(s1), difference, sum, product, div, mod;
+    if(x!=y) cout << "Not equal" << endl;
     sum=x+y;
     difference=x-y;
     product=x*y;
