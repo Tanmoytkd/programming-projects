@@ -195,7 +195,7 @@ class bigInt {
         return trim(result);
     }
 
-    string divide(string large, const string small, string &newlarge) {
+    string divide(const string large, const string small, string &newlarge) {
         if(strcompare(large,small)<0) {
             string zero="0";
             newlarge=large;
@@ -236,9 +236,15 @@ class bigInt {
         return trim(result);
     }
 
-    string divide(string large, const string small) {
+    string divide(const string large, const string small) {
         string blank="";
         return divide(large, small, blank);
+    }
+
+    string mod(const string large, const string small) {
+        string m="";
+        divide(large, small, m);
+        return trim(m);
     }
 
     bigInt operator+ (bigInt num) {
@@ -320,6 +326,18 @@ class bigInt {
         bigInt num2(x);
         return num1/num2;
     }
+
+    bigInt operator% (bigInt num) {
+        string m=mod(value, num.strval());
+        return bigInt(sign, m);
+    }
+
+    template<class T>
+    bigInt operator% (T x) {
+        bigInt num1(sign, value);
+        bigInt num2(x);
+        return num1%num2;
+    }
 };
 
 int main()
@@ -337,12 +355,12 @@ int main()
     string s1;
     int y;
     cin >> s1 >> y;
-    bigInt x(s1), difference, sum, product, div, result;
+    bigInt x(s1), difference, sum, product, div, mod;
     sum=x+y;
     difference=x-y;
     product=x*y;
     div=x/y;
-    //result=y-(x-y);
+    mod=x%y;
 
 //    cout << "x" << endl;
 //    if(x.strsign()=='-') cout << x.strsign();
@@ -364,7 +382,7 @@ int main()
     if(div.strsign()=='-') cout << div.strsign();
     cout << div.strval() << endl;
 
-    if(result.strsign()=='-') cout << result.strsign();
-    cout << result.strval() << endl;
+    if(mod.strsign()=='-') cout << mod.strsign();
+    cout << mod.strval() << endl;
     return 0;
 }
