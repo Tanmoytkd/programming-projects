@@ -382,6 +382,16 @@ class bigInt {
         bigInt num2(x);
         return num1<num2;
     }
+
+    template<class T>
+    bool operator>= (T x) {
+        return *this==x || *this>x;
+    }
+
+    template<class T>
+    bool operator<= (T x) {
+        return *this==x || *this<x;
+    }
 };
 
 int main()
@@ -400,7 +410,8 @@ int main()
     int y;
     cin >> s1 >> y;
     bigInt x(s1), difference, sum, product, div, mod;
-    if(x!=y) cout << "Not equal" << endl;
+    if(x>=y) cout << "greater than or equal" << endl;
+    if(x<=y) cout << "less than or equal" << endl;
     sum=x+y;
     difference=x-y;
     product=x*y;

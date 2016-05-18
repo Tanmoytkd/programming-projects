@@ -1,13 +1,5 @@
 # depslib dependency file v1.0
-1463458179 source:g:\tanmoytkd\projects\string calculation\main.cpp
-	<iostream>
-	<bits/stdc++.h>
-
-1462866047 source:/media/acmlab/T K D/projects/String calculation/main.cpp
-	<iostream>
-	<bits/stdc++.h>
-
-1463493263 source:/media/lab-332/473F-03B3/TKD 2015331025/programming-projects/String calculation/main.cpp
+1463534670 source:g:\tanmoytkd\projects\string calculation\main.cpp
 	<iostream>
 	<bits/stdc++.h>
 
