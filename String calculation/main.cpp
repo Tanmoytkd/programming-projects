@@ -267,9 +267,7 @@ class bigInt {
 
     template<class T>
     bigInt operator+ (T x) {
-        bigInt num1(sign, value);
-        bigInt num2(x);
-        return num1+num2;
+        return *this+bigInt(x);
     }
 
     bigInt operator- (bigInt num) {
@@ -294,9 +292,7 @@ class bigInt {
 
     template<class T>
     bigInt operator- (T x) {
-        bigInt num1(sign, value);
-        bigInt num2(x);
-        return num1-num2;
+        return *this-bigInt(x);
     }
 
     bigInt operator* (bigInt num) {
@@ -308,9 +304,7 @@ class bigInt {
 
     template<class T>
     bigInt operator* (T x) {
-        bigInt num1(sign, value);
-        bigInt num2(x);
-        return num1*num2;
+        return *this*bigInt(x);
     }
 
     bigInt operator/ (bigInt num) {
@@ -323,9 +317,7 @@ class bigInt {
 
     template<class T>
     bigInt operator/ (T x) {
-        bigInt num1(sign, value);
-        bigInt num2(x);
-        return num1/num2;
+        return *this/bigInt(x);
     }
 
     bigInt operator% (bigInt num) {
@@ -335,9 +327,7 @@ class bigInt {
 
     template<class T>
     bigInt operator% (T x) {
-        bigInt num1(sign, value);
-        bigInt num2(x);
-        return num1%num2;
+        return *this%bigInt(x);
     }
 
     bool operator== (bigInt num) {
@@ -346,13 +336,16 @@ class bigInt {
 
     template<class T>
     bool operator== (T x) {
-        bigInt num1(sign, value);
-        bigInt num2(x);
-        return num1==num2;
+        return *this==bigInt(x);
     }
 
     bool operator!= (bigInt num) {
         return sign!=num.strsign() || value!=num.strval();
+    }
+
+    template<class T>
+    bool operator!= (T x) {
+        return *this!=bigInt(x);
     }
 
     bool operator> (bigInt num) {
@@ -364,9 +357,7 @@ class bigInt {
 
     template<class T>
     bool operator> (T x) {
-        bigInt num1(sign, value);
-        bigInt num2(x);
-        return num1>num2;
+        return *this>bigInt(x);
     }
 
     bool operator< (bigInt num) {
@@ -378,9 +369,7 @@ class bigInt {
 
     template<class T>
     bool operator< (T x) {
-        bigInt num1(sign, value);
-        bigInt num2(x);
-        return num1<num2;
+        return *this<bigInt(x);
     }
 
     template<class T>
