@@ -13,7 +13,7 @@ class bigInt {
 		string val=value;
 		reverse(val.begin(), val.end());
 		trim(val);
-		return bigInt(sign, val); 
+		return bigInt(sign, val);
     }
 
     int strcompare(const string &x, const string &y) {
@@ -67,10 +67,10 @@ class bigInt {
         else sign='+';
 
         string val="";
-        while(x) {
+        do {
             val+= ('0' + x%10);
             x/=10;
-        }
+        } while(x);
         reverse(val.begin(), val.end());
         value=val;
     }
@@ -81,23 +81,6 @@ class bigInt {
 
     char strsign() {
         return sign;
-    }
-
-    template<typename T>
-    void operator= (T x) {
-        if(x<0) {
-            sign='-';
-            x=0-x;
-        }
-        else sign='+';
-
-        string val="";
-        while(x) {
-            val+= '0' + x%10;
-            x/=10;
-        }
-        reverse(val.begin(), val.end());
-        value=val;
     }
 
     void operator= (string &val) {
@@ -119,6 +102,24 @@ class bigInt {
         value = x.strval();
         sign = x.strsign();
     }
+
+    template<typename T>
+    void operator= (T x) {
+        if(x<0) {
+            sign='-';
+            x=0-x;
+        }
+        else sign='+';
+
+        string val="";
+        do {
+            val+= '0' + x%10;
+            x/=10;
+        } while(x);
+        reverse(val.begin(), val.end());
+        value=val;
+    }
+
 
     string add (string large, string small) {
         string sum="";
