@@ -1,0 +1,26 @@
+Bill #1 costs 1: each friend should pay 1
+
+Bill #2 costs 1: each friend should pay 0
+
+Bill #3 costs 8: each friend should pay 0
+
+Bill #4 costs 8: each friend should pay 1
+
+Bill #5 costs 31415926535897932384: each friend should pay 31415926535897932384
+
+Bill #6 costs 499999999999999999995: each friend should pay 45454545454545454545
+
+Bill #7 costs 62831853071795864768: each friend should pay 3141592653589793238
+
+Bill #8 costs 20000001000: each friend should pay 2222222333
+
+Bill #9 costs 700000000000000000000: each friend should pay 700000000000000000000
+
+Bill #10 costs 1100000000000000000000: each friend should pay 550000000000000000000
+
+Bill #11 costs 499999999999999999990: each friend should pay 24999999999999999999
+
+Bill #12 costs 507055670777318: each friend should pay 29826804163371
+
+Bill #13 costs 111111111111111111111: each friend should pay 15873015873015873015
+

@@ -215,7 +215,6 @@ class bigInt {
 
         while(newlarge.length()<small.length() && i<largelen) {
             newlarge+=large[i];
-            trim(newlarge);
             i++;
         }
 
@@ -231,13 +230,10 @@ class bigInt {
                 newlarge+=large[i];
                 i++;
             }
-            trim(newlarge);
-
-            /*while(newlarge.length()<small.length() && i<largelen) {
+            while(newlarge.length()<small.length() && i<largelen) {
                 newlarge+=large[i];
                 i++;
             }
-            trim(newlarge);*/
         }
         while(strcompare(newlarge,small)>=0) {
             newlarge=difference(newlarge, small);
@@ -395,31 +391,24 @@ class bigInt {
     }
 };
 
-
 int main()
 {
-    #ifdef TKD
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-    #endif
-    int i=0;
-    int n, f;
+    int n;
+    scanf("%d", &n);
 
-    while(scanf("%d %d", &n, &f)==2) {
-        if(n==0 && f==0) break;
-        i++;
+    string s1, s2;
+    bigInt num1, num2, sum;
 
-        bigInt sum=0;
-        string num;
+    for(int i=0; i<n; i++) {
+        cin >> s1 >> s2;
+        reverse(s1.begin(), s1.end());
+        reverse(s2.begin(), s2.end());
+        num1=s1;
+        num2=s2;
+        sum=num1+num2;
+        sum=sum.reverse_();
 
-        for(int i=0; i<n; i++) {
-            cin >> num;
-            sum=sum+num;
-        }
-        printf("Bill #%d costs %s: each friend should pay ", i, sum.strval().c_str());
-        sum=sum/f;
-        printf("%s\n\n", sum.strval().c_str());
+        cout << sum.strval() << endl;
     }
-
     return 0;
 }

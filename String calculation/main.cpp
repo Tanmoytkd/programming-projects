@@ -215,6 +215,7 @@ class bigInt {
 
         while(newlarge.length()<small.length() && i<largelen) {
             newlarge+=large[i];
+            trim(newlarge);
             i++;
         }
 
@@ -230,10 +231,7 @@ class bigInt {
                 newlarge+=large[i];
                 i++;
             }
-            while(newlarge.length()<small.length() && i<largelen) {
-                newlarge+=large[i];
-                i++;
-            }
+            trim(newlarge);
         }
         while(strcompare(newlarge,small)>=0) {
             newlarge=difference(newlarge, small);
@@ -415,9 +413,9 @@ int main()
     div=x/y;
     mod=x%y;
 
-//    cout << "x" << endl;
-//    if(x.strsign()=='-') cout << x.strsign();
-//    cout << x.strval() << endl << endl;
+    cout << "x= ";
+    if(x.strsign()=='-') cout << x.strsign();
+    cout << x.strval() << endl << endl;
 
     /*cout << "y" << endl;
     if(y.strsign()=='-') cout << y.strsign();
