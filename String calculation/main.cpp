@@ -9,6 +9,13 @@ class bigInt {
     char sign;
 
     public:
+    bigInt reverse_() {
+		string val=value;
+		reverse(val.begin(), val.end());
+		trim(val);
+		return bigInt(sign, val); 
+    }
+
     int strcompare(const string &x, const string &y) {
         if(x.length()>y.length()) return 1;
         else if(x.length()<y.length()) return -1;
