@@ -6,7 +6,7 @@ int main()
 {
     #ifdef TKD
     freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("output.txt", "w", stdout);
     #endif
 
     int house=2, sum=-1, last=house, i=0;
