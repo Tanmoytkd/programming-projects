@@ -1,0 +1,573 @@
+ | discuss 10946 - You want what filled?	 Accepted	C++	0.000	0.000	192	1 hours ago
+ | discuss 10946 - You want what filled?	 Runtime error	C++	0.000	0.000	-	1 hours ago
+ | discuss 10946 - You want what filled?	 Runtime error	C++	0.000	0.000	-	1 hours ago
+ | discuss 10946 - You want what filled?	 Runtime error	C++	0.000	0.000	-	1 hours ago
+ | discuss 11518 - Dominos 2	 Accepted	C++	0.010	0.000	87	1 hours ago
+ | discuss 11518 - Dominos 2	 Runtime error	C++	0.000	0.000	-	1 hours ago
+ | discuss 574 - Sum It Up	 Accepted	C++	0.000	0.000	865	2 hours ago
+ | discuss 10104 - Euclid Problem	 Accepted	C++	0.060	0.010	142	3 hours ago
+ | discuss 10104 - Euclid Problem	 Accepted	C++	0.050	0.010	56	3 hours ago
+ | discuss 12751 - An Interesting Game	 Accepted	C++	0.000	0.000	304	11 hours ago
+ | discuss 11244 - Counting Stars	 Accepted	C++	0.000	0.000	111	11 hours ago
+ | discuss 10050 - Hartals	 Accepted	C++	0.000	0.000	2132	11 hours ago
+ | discuss 11586 - Train Tracks	 Accepted	C++	0.000	0.000	542	11 hours ago
+ | discuss 11909 - Soya Milk	 Accepted	C++	0.000	0.000	242	12 hours ago
+ | discuss 11909 - Soya Milk	 Time limit	C++	1.000	0.000	-	12 hours ago
+ | discuss 11909 - Soya Milk	 Accepted	C++	0.000	0.000	241	12 hours ago
+ | discuss 11909 - Soya Milk	 Wrong answer	C++	0.000	0.000	-	12 hours ago
+ | discuss 11909 - Soya Milk	 Wrong answer	C++	0.000	0.000	-	12 hours ago
+ | discuss 11909 - Soya Milk	 Wrong answer	C++	0.000	0.000	-	12 hours ago
+ | discuss 12602 - Nice Licence Plates	 Accepted	C++	0.000	0.000	468	12 hours ago
+ | discuss 11715 - Car	 Accepted	C++	0.000	0.000	706	13 hours ago
+ | discuss 11614 - Etruscan Warriors Never Play Chess	 Accepted	C++	0.000	0.000	615	13 hours ago
+ | discuss 11614 - Etruscan Warriors Never Play Chess	 Wrong answer	C++	0.000	0.000	-	13 hours ago
+ | discuss 10954 - Add All	 Accepted	C++	0.000	0.000	187	6 days ago
+ | discuss 507 - Jill Rides Again	 Wrong answer	C++	0.060	0.000	-	7 days ago
+ | discuss 507 - Jill Rides Again	 Wrong answer	C++	0.060	0.000	-	7 days ago
+ | discuss 424 - Integer Inquiry	 Accepted	C++	0.000	0.000	1499	7 days ago
+ | discuss 10954 - Add All	 Wrong answer	C++	0.000	0.000	-	9 days ago
+ | discuss 10954 - Add All	 Wrong answer	C++	0.000	0.000	-	9 days ago
+ | discuss 10954 - Add All	 Wrong answer	C++	0.000	0.000	-	9 days ago
+ | discuss 10954 - Add All	 Wrong answer	C++	0.000	0.000	-	9 days ago
+ | discuss 10420 - List of Conquests	 Accepted	C++	0.000	0.000	404	10 days ago
+ | discuss 1112 - Mice and Maze	 Accepted	C++	0.000	0.000	367	11 days ago
+ | discuss 1112 - Mice and Maze	 Wrong answer	C++	0.000	0.000	-	11 days ago
+ | discuss 10986 - Sending email	 Accepted	C++	0.090	0.010	180	11 days ago
+ | discuss 929 - Number Maze	 Accepted	C++	0.630	0.108	84	19 days ago
+ | discuss 929 - Number Maze	 Wrong answer	C++	0.650	0.108	-	19 days ago
+ | discuss 11496 - Musical Loop	 Accepted	C++	0.000	0.000	80	20 days ago
+ | discuss 12897 - Decoding Baby Boos	 Accepted	C++11	0.180	0.000	258	22 days ago
+ | discuss 544 - Heavy Cargo	 Accepted	C++	0.080	0.000	1895	24 days ago
+ | discuss 544 - Heavy Cargo	 Wrong answer	C++	0.000	0.000	-	24 days ago
+ | discuss 544 - Heavy Cargo	 Wrong answer	C++	0.010	0.000	-	24 days ago
+ | discuss 1210 - Sum of Consecutive Prime Numbers	 Accepted	C++	0.000	0.000	184	25 days ago
+ | discuss 13115 - Sudoku	 Accepted	C++	0.000	0.000	67	25 days ago
+ | discuss 13109 - Elephants	 Accepted	C++	0.090	0.000	125	25 days ago
+ | discuss 133 - The Dole Queue	 Accepted	C++	0.000	0.000	2232	27 days ago
+ | discuss 133 - The Dole Queue	 Wrong answer	C++	0.000	0.000	-	27 days ago
+ | discuss 133 - The Dole Queue	 Wrong answer	C++	0.000	0.000	-	27 days ago
+ | discuss 524 - Prime Ring Problem	 Accepted	C++	0.130	0.000	325	2016-08-06 22:41
+ | discuss 11659 - Informants	 Time limit	C++	3.000	0.000	-	2016-08-06 02:45
+ | discuss 11659 - Informants	 Time limit	C++	3.000	0.000	-	2016-08-06 02:37
+ | discuss 11659 - Informants	 Wrong answer	C++	1.140	0.000	-	2016-08-06 02:30
+ | discuss 11659 - Informants	 Time limit	C++	3.000	0.000	-	2016-08-06 02:28
+ | discuss 11659 - Informants	 Wrong answer	C++	0.980	0.000	-	2016-08-06 02:23
+ | discuss 301 - Transportation	 Accepted	C++	0.410	0.000	402	2016-08-06 00:39
+ | discuss 10959 - The Party, Part I	 Accepted	C++	0.000	0.000	234	2016-08-04 01:47
+ | discuss 924 - Spreading The News	 Accepted	C++	0.000	0.000	115	2016-08-04 01:27
+ | discuss 924 - Spreading The News	 Runtime error	C++	0.000	0.000	-	2016-08-04 01:25
+ | discuss 11479 - Is this the easiest problem?	 Accepted	C++	0.000	0.000	1402	2016-08-03 04:39
+ | discuss 11479 - Is this the easiest problem?	 Accepted	C++	0.000	0.000	1402	2016-08-03 04:38
+ | discuss 11479 - Is this the easiest problem?	 Accepted	C++	0.000	0.000	1402	2016-08-03 04:37
+ | discuss 11479 - Is this the easiest problem?	 Wrong answer	C++	0.000	0.000	-	2016-08-03 04:35
+ | discuss 11479 - Is this the easiest problem?	 Wrong answer	C++	0.000	0.000	-	2016-08-03 04:34
+ | discuss 11479 - Is this the easiest problem?	 Wrong answer	C++	0.000	0.000	-	2016-08-03 04:32
+ | discuss 11479 - Is this the easiest problem?	 Wrong answer	C++	0.000	0.000	-	2016-08-03 04:29
+ | discuss 627 - The Net	 Accepted	C++	0.000	0.000	165	2016-08-03 04:04
+ | discuss 383 - Shipping Routes	 Accepted	C++	0.000	0.000	634	2016-08-03 00:35
+ | discuss 11470 - Square Sums	 Accepted	C++	0.000	0.000	431	2016-08-02 01:56
+ | discuss 280 - Vertex	 Accepted	C++	0.100	0.000	148	2016-08-01 20:51
+ | discuss 11094 - Continents	 Accepted	C++	0.000	0.000	554	2016-08-01 20:13
+ | discuss 11094 - Continents	 Wrong answer	C++	0.000	0.000	-	2016-08-01 20:00
+ | discuss 11094 - Continents	 Time limit	C++	3.000	0.000	-	2016-08-01 19:48
+ | discuss 11094 - Continents	 Wrong answer	C++	0.000	0.000	-	2016-08-01 19:18
+ | discuss 11094 - Continents	 Wrong answer	C++	0.000	0.000	-	2016-08-01 19:13
+ | discuss 11094 - Continents	 Wrong answer	C++	0.000	0.000	-	2016-08-01 19:04
+ | discuss 11094 - Continents	 Wrong answer	C++	0.000	0.000	-	2016-08-01 19:02
+ | discuss 11094 - Continents	 Wrong answer	C++	0.000	0.000	-	2016-08-01 18:31
+ | discuss 11094 - Continents	 Wrong answer	C++	0.000	0.000	-	2016-08-01 18:26
+ | discuss 507 - Jill Rides Again	 Wrong answer	C++	0.060	0.000	-	2016-08-01 02:03
+ | discuss 507 - Jill Rides Again	 Wrong answer	C++	0.060	0.000	-	2016-08-01 01:50
+ | discuss 12640 - Largest Sum Game	 Accepted	C++	0.040	0.000	124	2016-08-01 01:31
+ | discuss 11953 - Battleships	 Accepted	C++	0.000	0.000	123	2016-08-01 00:48
+ | discuss 10336 - Rank the Languages	 Accepted	C++	0.000	0.000	982	2016-07-31 21:18
+ | discuss 469 - Wetlands of Florida	 Accepted	C++	0.040	0.000	484	2016-07-31 20:47
+ | discuss 469 - Wetlands of Florida	 Accepted	C++	0.040	0.000	483	2016-07-31 20:45
+ | discuss 469 - Wetlands of Florida	 Wrong answer	C++	0.000	0.000	-	2016-07-31 20:35
+ | discuss 469 - Wetlands of Florida	 Wrong answer	C++	0.000	0.000	-	2016-07-31 20:33
+ | discuss 469 - Wetlands of Florida	 Runtime error	C++	0.000	0.000	-	2016-07-31 20:27
+ | discuss 11342 - Three-square	 Accepted	C++	0.640	0.000	1302	2016-07-31 17:19
+ | discuss 11342 - Three-square	 Wrong answer	C++	0.650	0.000	-	2016-07-31 17:11
+ | discuss 11342 - Three-square	 Wrong answer	C++	0.660	0.000	-	2016-07-31 17:09
+ | discuss 11342 - Three-square	 Wrong answer	C++	0.770	0.000	-	2016-07-31 16:59
+ | discuss 11342 - Three-square	 Time limit	C++	1.000	0.000	-	2016-07-31 16:27
+ | discuss 459 - Graph Connectivity	 Accepted	C++	0.000	0.000	1070	2016-07-31 01:03
+ | discuss 459 - Graph Connectivity	 Wrong answer	C++	0.000	0.000	-	2016-07-31 00:45
+ | discuss 352 - The Seasonal War	 Accepted	C++	0.000	0.000	1375	2016-07-31 00:23
+ | discuss 260 - Il Gioco dell'X	 Accepted	C++	0.250	0.000	2218	2016-07-31 00:05
+ | discuss 871 - Counting Cells in a Blob	 Accepted	C++	0.000	0.000	449	2016-07-30 22:56
+ | discuss 871 - Counting Cells in a Blob	 Wrong answer	C++	0.000	0.000	-	2016-07-30 22:46
+ | discuss 572 - Oil Deposits	 Accepted	C++	0.000	0.000	1480	2016-07-30 22:32
+ | discuss 108 - Maximum Sum	 Accepted	C++	0.000	0.000	497	2016-07-29 22:57
+ | discuss 10651 - Pebble Solitaire	 Accepted	C++	0.000	0.000	357	2016-07-26 02:06
+ | discuss 166 - Making Change	 Wrong answer	C++	0.000	0.000	-	2016-07-25 20:51
+ | discuss 166 - Making Change	 Wrong answer	C++	0.000	0.000	-	2016-07-25 20:10
+ | discuss 166 - Making Change	 Wrong answer	C++	0.000	0.000	-	2016-07-25 20:01
+ | discuss 166 - Making Change	 Wrong answer	C++	0.000	0.000	-	2016-07-25 19:55
+ | discuss 166 - Making Change	 Wrong answer	C++	0.000	0.000	-	2016-07-25 19:19
+ | discuss 481 - What Goes Up	 Accepted	C++	0.010	0.000	142	2016-07-22 15:27
+ | discuss 481 - What Goes Up	 Wrong answer	C++	0.000	0.000	-	2016-07-22 15:20
+ | discuss 481 - What Goes Up	 Wrong answer	C++	0.000	0.000	-	2016-07-22 15:09
+ | discuss 497 - Strategic Defense Initiative	 Accepted	C++	0.000	0.000	316	2016-07-21 19:51
+ | discuss 481 - What Goes Up	 Time limit	C++	3.000	0.000	-	2016-07-21 17:19
+ | discuss 481 - What Goes Up	 Time limit	C++	3.000	0.000	-	2016-07-21 17:17
+ | discuss 481 - What Goes Up	 Runtime error	C++	0.000	0.000	-	2016-07-21 17:15
+ | discuss 231 - Testing the CATCHER	 Accepted	C++	0.000	0.000	1261	2016-07-21 16:24
+ | discuss 111 - History Grading	 Accepted	C++	0.000	0.000	380	2016-07-21 16:00
+ | discuss 111 - History Grading	 Wrong answer	C++	0.000	0.000	-	2016-07-21 14:28
+ | discuss 10497 - Sweet Child Makes Trouble	 Accepted	C++	0.020	0.000	16	2016-07-03 17:31
+ | discuss 12024 - Hats	 Accepted	C++	0.000	0.000	117	2016-07-03 03:00
+ | discuss 191 - Intersection	 Wrong answer	C++	0.000	0.000	-	2016-07-03 01:14
+ | discuss 191 - Intersection	 Wrong answer	C++	0.000	0.000	-	2016-07-03 00:29
+ | discuss 191 - Intersection	 Wrong answer	C++	0.000	0.000	-	2016-07-03 00:24
+ | discuss 191 - Intersection	 Wrong answer	C++	0.000	0.000	-	2016-07-03 00:13
+ | discuss 10297 - Beavergnaw	 Accepted	C++	0.000	0.000	887	2016-07-02 23:41
+ | discuss 10633 - Rare Easy Problem	 Accepted	C++	0.000	0.000	231	2016-07-02 22:46
+ | discuss 10221 - Satellites	 Accepted	C++	0.000	0.000	493	2016-07-02 21:50
+ | discuss 10221 - Satellites	 Wrong answer	C++	0.000	0.000	-	2016-07-02 21:39
+ | discuss 10221 - Satellites	 Wrong answer	C++	0.000	0.000	-	2016-07-02 21:35
+ | discuss 10573 - Geometry Paradox	 Wrong answer	C++	0.000	0.000	-	2016-07-02 21:10
+ | discuss 10573 - Geometry Paradox	 Wrong answer	C++	0.000	0.000	-	2016-07-02 21:05
+ | discuss 10283 - The Kissing Circles	 Accepted	C++	0.050	0.040	20	2016-07-02 20:30
+ | discuss 10283 - The Kissing Circles	 Wrong answer	C++	0.050	0.040	-	2016-07-02 20:25
+ | discuss 12611 - Beautiful Flag	 Accepted	C++	0.000	0.000	261	2016-07-02 19:41
+ | discuss 541 - Error Correction	 Accepted	C++	0.000	0.000	370	2016-07-02 19:28
+ | discuss 10209 - Is This Integration ?	 Accepted	C++	0.020	0.000	166	2016-07-02 19:00
+ | discuss 10209 - Is This Integration ?	 Wrong answer	C++	0.020	0.000	-	2016-07-02 18:55
+ | discuss 429 - Word Transformation	 Accepted	C++	0.000	0.000	50	2016-07-01 17:08
+ | discuss 429 - Word Transformation	 PresentationE	C++	0.000	0.000	-	2016-06-30 23:29
+ | discuss 106 - Fermat vs. Pythagoras	 Accepted	C++	0.210	0.008	381	2016-06-30 22:22
+ | discuss 673 - Parentheses Balance	 Accepted	C++	0.140	0.000	5929	2016-06-28 15:51
+ | discuss 673 - Parentheses Balance	 Wrong answer	C++	0.150	0.000	-	2016-06-28 15:22
+ | discuss 673 - Parentheses Balance	 Wrong answer	C++	0.150	0.000	-	2016-06-28 15:19
+ | discuss 112 - Tree Summing	 Accepted	C++	0.050	0.000	562	2016-06-28 04:27
+ | discuss 112 - Tree Summing	 Wrong answer	C++	0.050	0.000	-	2016-06-28 04:06
+ | discuss 10125 - Sumsets	 Accepted	C++	0.890	0.000	1574	2016-06-27 19:44
+ | discuss 762 - We Ship Cheap	 Accepted	C++	0.030	0.000	222	2016-06-26 01:14
+ | discuss 439 - Knight Moves	 Accepted	C++	0.010	0.000	577	2016-06-25 23:50
+ | discuss 10819 - Trouble of 13-Dots	 Accepted	C++	0.260	0.000	655	2016-06-25 23:00
+ | discuss 10819 - Trouble of 13-Dots	 Wrong answer	C++	0.230	0.000	-	2016-06-25 21:51
+ | discuss 10819 - Trouble of 13-Dots	 Wrong answer	C++	0.220	0.000	-	2016-06-25 21:44
+ | discuss 10819 - Trouble of 13-Dots	 Wrong answer	C++	0.210	0.000	-	2016-06-25 19:53
+ | discuss 10653 - Bombs! NO they are Mines!!	 Accepted	C++	0.200	0.020	244	2016-06-25 19:31
+ | discuss 10653 - Bombs! NO they are Mines!!	 Wrong answer	C++	0.080	0.020	-	2016-06-25 19:28
+ | discuss 567 - Risk	 Accepted	C++	0.050	0.009	111	2016-06-25 17:34
+ | discuss 567 - Risk	 PresentationE	C++	0.050	0.009	-	2016-06-25 17:28
+ | discuss 336 - A Node Too Far	 Accepted	C++	0.120	0.000	1806	2016-06-25 04:14
+ | discuss 336 - A Node Too Far	 Wrong answer	C++	0.220	0.000	-	2016-06-25 03:35
+ | discuss 336 - A Node Too Far	 Runtime error	C++	0.000	0.000	-	2016-06-25 03:34
+ | discuss 10004 - Bicoloring	 Accepted	C++	0.000	0.000	1790	2016-06-25 02:20
+ | discuss 10004 - Bicoloring	 Wrong answer	C++	0.000	0.000	-	2016-06-25 02:16
+ | discuss 11085 - Back to the 8-Queens	 Wrong answer	C++	0.000	0.000	-	2016-06-23 20:07
+ | discuss 11085 - Back to the 8-Queens	 Wrong answer	C++	0.000	0.000	-	2016-06-23 20:02
+ | discuss 11137 - Ingenuous Cubrency	 Accepted	C++	0.000	0.000	404	2016-06-22 20:48
+ | discuss 10152 - ShellSort	 Accepted	C++	0.310	0.000	1125	2016-06-21 17:53
+ | discuss 706 - LC-Display	 Accepted	ANSI C	0.000	0.000	44	2016-06-18 16:40
+ | discuss 11331 - The Joys of Farming	 Accepted	C++	0.000	0.000	2	2016-06-17 14:36
+ | discuss 1133 - Rent your airplane and make money	 Wrong answer	C++	0.000	0.050	-	2016-06-17 14:32
+ | discuss 343 - What Base Is This?	 Accepted	C++	0.000	0.000	36	2016-06-15 16:42
+ | discuss 100 - The 3n + 1 problem	 Accepted	ANSI C	0.000	0.000	167	2016-06-12 21:53
+ | discuss 11526 - H(n)	 Accepted	C++	0.540	0.020	1210	2016-06-11 02:13
+ | discuss 10432 - Polygon Inside A Circle	 Accepted	ANSI C	0.000	0.000	425	2016-06-09 12:11
+ | discuss 10341 - Solve It	 Accepted	C++	0.040	0.000	2630	2016-06-07 04:09
+ | discuss 147 - Dollars	 Accepted	ANSI C	0.000	0.000	106	2016-06-07 00:54
+ | discuss 147 - Dollars	 Runtime error	C++	0.000	0.000	-	2016-06-06 14:16
+ | discuss 147 - Dollars	 Runtime error	C++	0.000	0.000	-	2016-06-06 14:13
+ | discuss 147 - Dollars	 Runtime error	C++	0.000	0.000	-	2016-06-06 14:11
+ | discuss 147 - Dollars	 Runtime error	C++	0.000	0.000	-	2016-06-06 14:08
+ | discuss 147 - Dollars	 Runtime error	ANSI C	0.000	0.000	-	2016-06-06 14:07
+ | discuss 674 - Coin Change	 Accepted	C++	0.010	0.000	172	2016-06-05 01:00
+ | discuss 674 - Coin Change	 PresentationE	C++	0.010	0.000	-	2016-06-05 00:58
+ | discuss 674 - Coin Change	 Time limit	C++	3.000	0.000	-	2016-06-04 02:50
+ | discuss 674 - Coin Change	 Time limit	C++	3.000	0.000	-	2016-06-04 02:07
+ | discuss 10130 - SuperSale	 Accepted	C++	0.340	0.000	4675	2016-06-04 00:34
+ | discuss 10130 - SuperSale	 Accepted	C++	0.340	0.000	4674	2016-06-03 22:42
+ | discuss 10130 - SuperSale	 Wrong answer	C++	0.400	0.000	-	2016-06-03 22:38
+ | discuss 10130 - SuperSale	 Wrong answer	ANSI C	1.130	0.000	-	2016-06-03 21:59
+ | discuss 12700 - Banglawash	 Accepted	ANSI C	0.000	0.000	336	2016-05-31 19:35
+ | discuss 12798 - Handball	 Accepted	ANSI C	0.000	0.000	37	2016-05-31 19:34
+ | discuss 12750 - Keep Rafa at Chelsea	 Accepted	ANSI C	0.000	0.000	68	2016-05-31 19:32
+ | discuss 11369 - Shopaholic	 Accepted	C++	0.020	0.000	60	2016-05-25 13:00
+ | discuss 12289 - One-Two-Three	 Accepted	ANSI C	0.000	0.000	1592	2016-05-25 00:51
+ | discuss 11494 - Queen	 Accepted	ANSI C	0.000	0.000	294	2016-05-24 19:13
+ | discuss 11526 - H(n)	 Time limit	C++	5.000	0.020	-	2016-05-24 10:06
+ | discuss 11526 - H(n)	 Time limit	ANSI C	5.000	0.020	-	2016-05-24 02:01
+ | discuss 10219 - Find the ways !	 Accepted	ANSI C	0.000	0.000	1013	2016-05-24 00:25
+ | discuss 13082 - High School Assembly	 Accepted	C++	0.010	0.000	69	2016-05-23 22:31
+ | discuss 13082 - High School Assembly	 Wrong answer	C++	0.010	0.000	-	2016-05-23 22:30
+ | discuss 11364 - Parking	 Accepted	C++	0.000	0.000	1623	2016-05-23 20:28
+ | discuss 11364 - Parking	 Compile error	ANSI C	0.000	0.000	-	2016-05-23 20:27
+ | discuss 10935 - Throwing cards away I	 Accepted	C++	0.000	0.000	1059	2016-05-23 01:55
+ | discuss 10935 - Throwing cards away I	 Wrong answer	C++	0.000	0.000	-	2016-05-23 01:43
+ | discuss 10935 - Throwing cards away I	 PresentationE	C++	0.000	0.000	-	2016-05-23 01:33
+ | discuss 10935 - Throwing cards away I	 PresentationE	C++	0.000	0.000	-	2016-05-23 01:11
+ | discuss 10935 - Throwing cards away I	 PresentationE	C++	0.000	0.000	-	2016-05-23 01:08
+ | discuss 10738 - Riemann vs Mertens	 Accepted	C++	0.230	0.010	321	2016-05-22 23:54
+ | discuss 10738 - Riemann vs Mertens	 Wrong answer	C++	0.220	0.010	-	2016-05-22 23:35
+ | discuss 10738 - Riemann vs Mertens	 Wrong answer	C++	0.230	0.010	-	2016-05-22 23:24
+ | discuss 10812 - Beat the Spread!	 Accepted	ANSI C	0.000	0.000	2845	2016-05-22 17:30
+ | discuss 10812 - Beat the Spread!	 Wrong answer	ANSI C	0.000	0.000	-	2016-05-22 17:08
+ | discuss 580 - Critical Mass	 Wrong answer	ANSI C	0.000	0.000	-	2016-05-17 15:29
+ | discuss 580 - Critical Mass	 Wrong answer	ANSI C	0.000	0.000	-	2016-05-17 15:15
+ | discuss 495 - Fibonacci Freeze	 Accepted	ANSI C	0.010	0.000	13	2016-05-17 10:19
+ | discuss 10812 - Beat the Spread!	 Wrong answer	ANSI C	0.000	0.000	-	2016-05-15 21:20
+ | discuss 10812 - Beat the Spread!	 Wrong answer	ANSI C	0.000	0.000	-	2016-05-15 21:18
+ | discuss 146 - ID Codes	 Accepted	C++	0.000	0.000	3473	2016-05-13 15:05
+ | discuss 11044 - Searching for Nessy	 Accepted	ANSI C	0.000	0.000	2042	2016-05-13 12:52
+ | discuss 11659 - Informants	 Time limit	C++	3.000	0.000	-	2016-05-12 13:59
+ | discuss 10533 - Digit Primes	 Accepted	ANSI C	0.150	0.010	169	2016-05-12 11:31
+ | discuss 10533 - Digit Primes	 Time limit	ANSI C	3.000	0.010	-	2016-05-12 10:53
+ | discuss 10776 - Determine The Combination	 Accepted	C++	0.000	0.000	142	2016-05-09 01:53
+ | discuss 10776 - Determine The Combination	 Time limit	C++	3.000	0.000	-	2016-05-09 01:23
+ | discuss 10776 - Determine The Combination	 Time limit	C++	3.000	0.000	-	2016-05-09 00:47
+ | discuss 10344 - 23 out of 5	 Accepted	C++	0.340	0.020	484	2016-05-08 19:05
+ | discuss 677 - All Walks of length "n" from the first node	 Accepted	C++	0.020	0.000	22	2016-05-08 18:20
+ | discuss 441 - Lotto	 Accepted	C++11	0.000	0.000	732	2016-05-08 13:57
+ | discuss 604 - The Boggle Game	 Accepted	C++11	0.120	0.000	99	2016-05-08 13:56
+ | discuss 167 - The Sultan's Successors	 Accepted	C++11	0.000	0.000	632	2016-05-08 13:55
+ | discuss 624 - CD	 Accepted	C++11	0.050	0.000	3046	2016-05-08 13:55
+ | discuss 750 - 8 Queens Chess Problem	 Accepted	C++11	0.000	0.000	354	2016-05-08 13:54
+ | discuss 989 - Su Doku	 Accepted	C++11	0.000	0.000	37	2016-05-08 13:52
+ | discuss 12372 - Packing for Holiday	 Accepted	C++	0.000	0.000	1581	2016-05-03 22:20
+ | discuss 11278 - One-Handed Typist	 Accepted	ANSI C	0.000	0.000	182	2016-05-03 21:39
+ | discuss 11278 - One-Handed Typist	 Wrong answer	ANSI C	0.000	0.000	-	2016-05-03 20:22
+ | discuss 446 - Kibbles "n" Bits "n" Bits "n" Bits	 Accepted	ANSI C	0.000	0.000	1905	2016-05-01 15:51
+ | discuss 499 - What's The Frequency, Kenneth?	 Accepted	C++	0.000	0.000	1364	2016-04-30 12:45
+ | discuss 537 - Artificial Intelligence?	 Accepted	C++	0.000	0.000	941	2016-04-30 12:42
+ | discuss 492 - Pig-Latin	 Accepted	C++	0.000	0.000	22	2016-04-30 12:41
+ | discuss 492 - Pig-Latin	 Compile error	ANSI C	0.000	0.000	-	2016-04-30 12:40
+ | discuss 10062 - Tell me the frequencies!	 Accepted	ANSI C	0.000	0.000	970	2016-04-30 12:39
+ | discuss 10019 - Funny Encryption Method	 Accepted	ANSI C	0.000	0.000	3346	2016-04-30 12:38
+ | discuss 10293 - Word Length and Frequency	 Accepted	ANSI C	0.000	0.000	480	2016-04-30 12:35
+ | discuss 644 - Immediate Decodability	 Accepted	ANSI C	0.010	0.000	59	2016-04-30 12:34
+ | discuss 422 - Word-Search Wonder	 Accepted	ANSI C	0.000	0.000	160	2016-04-30 12:33
+ | discuss 409 - Excuses, Excuses!	 Accepted	C++	0.000	0.000	782	2016-04-26 16:34
+ | discuss 11934 - Magic Formula	 Accepted	ANSI C	0.000	0.000	299	2016-04-26 15:35
+ | discuss 10222 - Decode the Mad man	 Accepted	ANSI C	0.000	0.000	2925	2016-04-26 15:02
+ | discuss 444 - Encoder and Decoder	 Accepted	ANSI C	0.000	0.000	465	2016-04-26 14:58
+ | discuss 10499 - The Land of Justice	 Accepted	ANSI C	0.010	0.000	307	2016-04-24 23:49
+ | discuss 10499 - The Land of Justice	 Wrong answer	ANSI C	0.000	0.000	-	2016-04-24 23:35
+ | discuss 10499 - The Land of Justice	 Wrong answer	ANSI C	0.000	0.000	-	2016-04-24 23:29
+ | discuss 10499 - The Land of Justice	 Wrong answer	ANSI C	0.000	0.000	-	2016-04-24 23:13
+ | discuss 944 - Happy Numbers	 Accepted	C++	0.050	0.000	14	2016-04-24 22:49
+ | discuss 944 - Happy Numbers	 Wrong answer	ANSI C	0.050	0.000	-	2016-04-24 22:34
+ | discuss 324 - Factorial Frequencies	 Accepted	C++	0.000	0.000	252	2016-04-24 00:38
+ | discuss 412 - Pi	 Accepted	C++	0.060	0.000	26	2016-04-24 00:12
+ | discuss 412 - Pi	 Wrong answer	ANSI C	0.070	0.000	-	2016-04-23 23:51
+ | discuss 408 - Uniform Generator	 Accepted	ANSI C	0.040	0.000	2474	2016-04-22 17:51
+ | discuss 10394 - Twin Primes	 Accepted	C++	0.100	0.020	149	2016-04-22 17:15
+ | discuss 10394 - Twin Primes	 Time limit	C++	3.000	0.020	-	2016-04-22 16:22
+ | discuss 10168 - Summation of Four Primes	 Accepted	C++	0.020	0.000	147	2016-04-22 15:57
+ | discuss 10168 - Summation of Four Primes	 Wrong answer	C++	0.020	0.000	-	2016-04-22 15:10
+ | discuss 686 - Goldbach's Conjecture (II)	 Accepted	C++	0.000	0.000	351	2016-04-22 14:55
+ | discuss 10784 - Diagonal	 Accepted	ANSI C	0.000	0.000	252	2016-04-22 14:34
+ | discuss 10699 - Count the factors	 Accepted	C++	0.000	0.000	273	2016-04-22 02:03
+ | discuss 10922 - 2 the 9s	 Accepted	ANSI C	0.000	0.000	47	2016-04-22 00:48
+ | discuss 10922 - 2 the 9s	 Wrong answer	ANSI C	0.000	0.000	-	2016-04-22 00:42
+ | discuss 748 - Exponentiation	 Accepted	ANSI C	0.000	0.000	290	2016-04-21 01:48
+ | discuss 490 - Rotating Sentences	 Accepted	ANSI C	0.000	0.000	1159	2016-04-20 14:40
+ | discuss 490 - Rotating Sentences	 PresentationE	ANSI C	0.000	0.000	-	2016-04-20 14:04
+ | discuss 10193 - All You Need Is Love	 Accepted	ANSI C	0.000	0.000	1056	2016-04-19 23:33
+ | discuss 713 - Adding Reversed Numbers	 Accepted	C++	0.000	0.000	522	2016-04-19 15:41
+ | discuss 11879 - Multiple of 17	 Accepted	C++	0.000	0.000	320	2016-04-19 14:59
+ | discuss 10105 - Polynomial Coefficients	 Wrong answer	C++	0.000	0.000	-	2016-04-19 14:59
+ | discuss 10105 - Polynomial Coefficients	 Accepted	ANSI C	0.000	0.000	92	2016-04-19 14:20
+ | discuss 514 - Rails	 Accepted	C++	0.040	0.000	174	2016-04-19 01:36
+ | discuss 10424 - Love Calculator	 Accepted	ANSI C	0.000	0.000	2384	2016-04-18 02:00
+ | discuss 10170 - The Hotel with Infinite Rooms	 Accepted	ANSI C	0.000	0.000	11	2016-04-18 01:30
+ | discuss 10324 - Zeros and Ones	 Accepted	ANSI C	1.570	0.000	4369	2016-04-18 00:56
+ | discuss 10324 - Zeros and Ones	 PresentationE	ANSI C	1.560	0.000	-	2016-04-18 00:50
+ | discuss 11068 - An Easy Task	 Accepted	ANSI C	0.000	0.000	151	2016-04-18 00:13
+ | discuss 445 - Marvelous Mazes	 Accepted	ANSI C	0.000	0.000	1397	2016-04-17 13:57
+ | discuss 573 - The Snail	 Accepted	ANSI C	0.000	0.000	2710	2016-04-15 23:14
+ | discuss 11713 - Abstract Names	 Accepted	ANSI C	0.000	0.000	400	2016-04-15 21:35
+ | discuss 12342 - Tax Calculator	 Accepted	ANSI C	0.000	0.000	94	2016-04-15 21:11
+ | discuss 12342 - Tax Calculator	 Wrong answer	C++	0.000	0.000	-	2016-04-15 20:14
+ | discuss 106 - Fermat vs. Pythagoras	 Time limit	ANSI C	3.000	0.008	-	2016-04-15 19:10
+ | discuss 10127 - Ones	 Accepted	ANSI C	0.000	0.000	952	2016-04-15 17:56
+ | discuss 10127 - Ones	 Accepted	C++	0.700	0.000	7990	2016-04-15 13:38
+ | discuss 575 - Skew Binary	 Accepted	ANSI C	0.000	0.000	3937	2016-04-14 20:34
+ | discuss 369 - Combinations	 Accepted	C++	0.000	0.000	510	2016-04-14 19:51
+ | discuss 294 - Divisors	 Accepted	C++	0.020	0.000	705	2016-04-14 19:36
+ | discuss 10494 - If We Were a Child Again	 Accepted	C++	0.000	0.000	226	2016-04-14 18:39
+ | discuss 583 - Prime Factors	 Accepted	C++	0.060	0.030	30	2016-04-14 18:09
+ | discuss 160 - Factors and Factorials	 Accepted	C++	0.000	0.000	2997	2016-04-14 16:41
+ | discuss 160 - Factors and Factorials	 Wrong answer	ANSI C	0.000	0.000	-	2016-04-14 16:04
+ | discuss 465 - Overflow	 Accepted	ANSI C	0.000	0.000	608	2016-04-14 14:45
+ | discuss 465 - Overflow	 Wrong answer	ANSI C	0.000	0.000	-	2016-04-13 23:18
+ | discuss 465 - Overflow	 Wrong answer	ANSI C	0.000	0.000	-	2016-04-13 23:01
+ | discuss 465 - Overflow	 Time limit	ANSI C	3.000	0.000	-	2016-04-13 22:57
+ | discuss 10106 - Product	 Accepted	ANSI C	0.000	0.000	399	2016-04-13 00:17
+ | discuss 10106 - Product	 Wrong answer	ANSI C	0.000	0.000	-	2016-04-13 00:08
+ | discuss 834 - Continued Fractions	 Accepted	ANSI C	0.000	0.000	2100	2016-04-12 23:21
+ | discuss 12149 - Feynman	 Accepted	ANSI C	0.000	0.000	756	2016-04-12 22:35
+ | discuss 488 - Triangle Wave	 Accepted	ANSI C	0.180	0.000	1279	2016-04-12 17:01
+ | discuss 488 - Triangle Wave	 Wrong answer	ANSI C	0.000	0.000	-	2016-04-12 16:56
+ | discuss 488 - Triangle Wave	 Wrong answer	ANSI C	0.000	0.000	-	2016-04-12 16:53
+ | discuss 424 - Integer Inquiry	 Accepted	ANSI C	0.000	0.000	1350	2016-04-12 16:43
+ | discuss 424 - Integer Inquiry	 Wrong answer	ANSI C	0.000	0.000	-	2016-04-12 16:39
+ | discuss 10323 - Factorial! You Must be Kidding!!!	 Accepted	ANSI C	0.000	0.000	10	2016-04-11 13:11
+ | discuss 10323 - Factorial! You Must be Kidding!!!	 Wrong answer	ANSI C	0.000	0.000	-	2016-04-11 12:46
+ | discuss 10925 - Krakovia	 Accepted	C++	0.000	0.000	10	2016-04-08 14:09
+ | discuss 11371 - Number Theory for Newbies	 Accepted	ANSI C	0.000	0.000	309	2016-04-07 00:11
+ | discuss 11371 - Number Theory for Newbies	 Wrong answer	ANSI C	0.000	0.000	-	2016-04-06 23:47
+ | discuss 11371 - Number Theory for Newbies	 Wrong answer	ANSI C	0.000	0.000	-	2016-04-06 23:14
+ | discuss 11371 - Number Theory for Newbies	 Wrong answer	C++	0.000	0.000	-	2016-04-06 16:45
+ | discuss 11344 - The Huge One	 Accepted	ANSI C	0.009	0.000	134	2016-04-05 14:53
+ | discuss 530 - Binomial Showdown	 Accepted	ANSI C	0.000	0.000	2466	2016-04-03 03:49
+ | discuss 530 - Binomial Showdown	 Wrong answer	ANSI C	0.000	0.000	-	2016-04-03 03:46
+ | discuss 530 - Binomial Showdown	 Time limit	ANSI C	3.000	0.000	-	2016-04-03 03:18
+ | discuss 530 - Binomial Showdown	 Time limit	ANSI C	3.000	0.000	-	2016-04-03 02:29
+ | discuss 10925 - Krakovia	 Wrong answer	ANSI C	0.000	0.000	-	2016-04-03 02:23
+ | discuss 10925 - Krakovia	 Wrong answer	ANSI C	0.000	0.000	-	2016-04-03 01:50
+ | discuss 10925 - Krakovia	 Wrong answer	ANSI C	0.000	0.000	-	2016-04-03 01:27
+ | discuss 12626 - I ? Pizza	 Accepted	ANSI C	0.000	0.000	142	2016-04-02 23:08
+ | discuss 12626 - I ? Pizza	 Wrong answer	ANSI C	0.000	0.000	-	2016-04-02 23:01
+ | discuss 406 - Prime Cuts	 Accepted	C++	0.036	0.000	369	2016-04-01 21:26
+ | discuss 406 - Prime Cuts	 SubmissionErr	C++	0.000	0.000	-	2016-04-01 21:22
+ | discuss 406 - Prime Cuts	 Wrong answer	C++	0.036	0.000	-	2016-04-01 21:16
+ | discuss 406 - Prime Cuts	 SubmissionErr	C++	0.000	0.000	-	2016-04-01 21:08
+ | discuss 10530 - Guessing Game	 Accepted	ANSI C	0.000	0.000	340	2016-04-01 20:06
+ | discuss 10530 - Guessing Game	 Wrong answer	ANSI C	0.000	0.000	-	2016-04-01 19:51
+ | discuss 10530 - Guessing Game	 Wrong answer	ANSI C	0.000	0.000	-	2016-04-01 19:48
+ | discuss 10530 - Guessing Game	 Wrong answer	ANSI C	0.000	0.000	-	2016-04-01 19:27
+ | discuss 10530 - Guessing Game	 Wrong answer	ANSI C	0.000	0.000	-	2016-04-01 19:03
+ | discuss 343 - What Base Is This?	 Wrong answer	ANSI C	0.000	0.000	-	2016-04-01 14:53
+ | discuss 343 - What Base Is This?	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-31 15:50
+ | discuss 343 - What Base Is This?	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-31 15:48
+ | discuss 10008 - What's Cryptanalysis?	 Accepted	ANSI C	0.000	0.000	4278	2016-03-31 14:10
+ | discuss 1124 - Celebrity jeopardy	 Accepted	ANSI C	0.000	0.000	1549	2016-03-31 13:45
+ | discuss 579 - Clock Hands	 Accepted	ANSI C	0.013	0.000	344	2016-03-31 13:41
+ | discuss 495 - Fibonacci Freeze	 Time limit	ANSI C	3.000	0.000	-	2016-03-31 13:07
+ | discuss 101 - The Blocks Problem	 Accepted	ANSI C	0.000	0.000	270	2016-03-31 12:23
+ | discuss 10013 - Super long sums	 Accepted	ANSI C	0.370	0.000	279	2016-03-30 17:49
+ | discuss 10013 - Super long sums	 PresentationE	ANSI C	0.390	0.000	-	2016-03-30 17:40
+ | discuss 10013 - Super long sums	 PresentationE	ANSI C	0.370	0.000	-	2016-03-30 17:38
+ | discuss 10473 - Simple Base Conversion	 Accepted	ANSI C	0.003	0.000	171	2016-03-30 12:54
+ | discuss 389 - Basically Speaking	 Accepted	ANSI C	0.029	0.000	22	2016-03-29 21:00
+ | discuss 355 - The Bases Are Loaded	 Accepted	ANSI C	0.000	0.000	130	2016-03-29 20:06
+ | discuss 355 - The Bases Are Loaded	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-29 19:48
+ | discuss 661 - Blowing Fuses	 Accepted	ANSI C	0.000	0.000	1125	2016-03-27 18:00
+ | discuss 113 - Power of Cryptography	 Accepted	ANSI C	0.000	0.000	864	2016-03-27 16:47
+ | discuss 10189 - Minesweeper	 Accepted	ANSI C	0.000	0.000	1327	2016-03-27 16:37
+ | discuss 113 - Power of Cryptography	 Time limit	ANSI C	3.000	0.000	-	2016-03-26 23:10
+ | discuss 113 - Power of Cryptography	 Time limit	ANSI C	3.000	0.000	-	2016-03-26 23:00
+ | discuss 12068 - Harmonic Mean	 Accepted	ANSI C	0.000	0.000	91	2016-03-26 22:47
+ | discuss 11559 - Event Planning	 Accepted	ANSI C	0.000	0.000	1249	2016-03-26 21:48
+ | discuss 11559 - Event Planning	 Accepted	ANSI C	0.000	0.000	1248	2016-03-26 21:32
+ | discuss 138 - Street Numbers	 Accepted	ANSI C	0.000	0.000	2107	2016-03-26 20:24
+ | discuss 138 - Street Numbers	 SubmissionErr	ANSI C	0.000	0.000	-	2016-03-26 20:17
+ | discuss 543 - Goldbach's Conjecture	 Accepted	ANSI C	0.026	0.000	442	2016-03-26 01:10
+ | discuss 543 - Goldbach's Conjecture	 SubmissionErr	ANSI C	0.000	0.000	-	2016-03-26 01:03
+ | discuss 10101 - Bangla Numbers	 Accepted	ANSI C	0.003	0.000	146	2016-03-25 22:52
+ | discuss 10101 - Bangla Numbers	 Wrong answer	ANSI C	0.003	0.000	-	2016-03-25 22:11
+ | discuss 495 - Fibonacci Freeze	 Runtime error	ANSI C	0.000	0.000	-	2016-03-24 22:45
+ | discuss 1225 - Digit Counting	 Accepted	ANSI C	0.000	0.000	1167	2016-03-24 22:25
+ | discuss 1225 - Digit Counting	 Accepted	ANSI C	0.000	0.000	1165	2016-03-24 21:52
+ | discuss 530 - Binomial Showdown	 Time limit	ANSI C	3.000	0.000	-	2016-03-24 20:59
+ | discuss 530 - Binomial Showdown	 Time limit	ANSI C	3.000	0.000	-	2016-03-24 20:38
+ | discuss 10161 - Ant on a Chessboard	 Accepted	ANSI C	0.000	0.000	1525	2016-03-22 22:53
+ | discuss 10161 - Ant on a Chessboard	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-22 22:34
+ | discuss 10110 - Light, more light	 Accepted	ANSI C	0.009	0.000	498	2016-03-22 22:01
+ | discuss 10082 - WERTYU	 Accepted	ANSI C	0.000	0.000	5733	2016-03-22 21:05
+ | discuss 10079 - Pizza Cutting	 Accepted	ANSI C	0.000	0.000	2890	2016-03-22 20:32
+ | discuss 10079 - Pizza Cutting	 Wrong answer	ANSI C	0.533	0.000	-	2016-03-22 20:19
+ | discuss 10041 - Vito's Family	 Accepted	ANSI C	0.009	0.000	319	2016-03-22 19:58
+ | discuss 10041 - Vito's Family	 Accepted	ANSI C	0.013	0.000	451	2016-03-22 19:54
+ | discuss 227 - Puzzle	 Accepted	ANSI C	0.003	0.000	176	2016-03-22 14:49
+ | discuss 227 - Puzzle	 Runtime error	ANSI C	0.000	0.000	-	2016-03-22 14:18
+ | discuss 227 - Puzzle	 Runtime error	ANSI C	0.000	0.000	-	2016-03-22 14:00
+ | discuss 10591 - Happy Number	 Accepted	ANSI C	0.000	0.000	349	2016-03-19 23:59
+ | discuss 10591 - Happy Number	 Time limit	ANSI C	3.000	0.000	-	2016-03-19 16:08
+ | discuss 640 - Self Numbers	 Accepted	ANSI C	0.026	0.000	125	2016-03-19 15:50
+ | discuss 694 - The Collatz Sequence	 Accepted	ANSI C	0.009	0.000	454	2016-03-18 23:31
+ | discuss 11428 - Cubes	 Accepted	ANSI C	0.000	0.000	292	2016-03-18 23:03
+ | discuss 11723 - Numbering Roads	 Accepted	ANSI C	0.003	0.000	530	2016-03-18 21:51
+ | discuss 11608 - No Problem	 Accepted	ANSI C	0.000	0.000	249	2016-03-18 21:07
+ | discuss 11608 - No Problem	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-18 20:57
+ | discuss 11608 - No Problem	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-18 20:53
+ | discuss 11677 - Alarm Clock	 Accepted	ANSI C	0.000	0.000	557	2016-03-18 20:35
+ | discuss 11677 - Alarm Clock	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-18 20:06
+ | discuss 11677 - Alarm Clock	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-18 20:01
+ | discuss 10340 - All in All	 Accepted	ANSI C	0.000	0.000	789	2016-03-18 19:41
+ | discuss 10340 - All in All	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-18 19:36
+ | discuss 10340 - All in All	 Runtime error	ANSI C	0.000	0.000	-	2016-03-18 19:13
+ | discuss 10340 - All in All	 Runtime error	ANSI C	0.000	0.000	-	2016-03-18 14:28
+ | discuss 10940 - Throwing cards away II	 Accepted	ANSI C	0.012	0.000	176	2016-03-17 22:51
+ | discuss 377 - Cowculations	 Accepted	ANSI C	0.000	0.000	648	2016-03-17 21:29
+ | discuss 344 - Roman Digititis	 Accepted	ANSI C	0.000	0.000	2164	2016-03-17 15:57
+ | discuss 374 - Big Mod	 Accepted	ANSI C	0.000	0.000	3617	2016-03-17 15:19
+ | discuss 374 - Big Mod	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-17 15:11
+ | discuss 11650 - Mirror Clock	 Accepted	ANSI C	0.003	0.000	427	2016-03-17 14:40
+ | discuss 374 - Big Mod	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-17 14:22
+ | discuss 11650 - Mirror Clock	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-17 14:21
+ | discuss 12527 - Different Digits	 Accepted	ANSI C	0.019	0.000	732	2016-03-16 22:46
+ | discuss 12015 - Google is Feeling Lucky	 Accepted	ANSI C	0.000	0.000	798	2016-03-16 21:49
+ | discuss 10773 - Back to Intermediate Math	 Accepted	ANSI C	0.000	0.000	677	2016-03-16 21:20
+ | discuss 10773 - Back to Intermediate Math	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-16 21:09
+ | discuss 10773 - Back to Intermediate Math	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-16 15:00
+ | discuss 12502 - Three Families	 Accepted	ANSI C	0.000	0.000	404	2016-03-16 14:50
+ | discuss 10773 - Back to Intermediate Math	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-16 14:23
+ | discuss 10550 - Combination Lock	 Accepted	ANSI C	0.000	0.000	1010	2016-03-16 14:15
+ | discuss 10550 - Combination Lock	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-16 13:56
+ | discuss 10773 - Back to Intermediate Math	 Wrong answer	ANSI C	0.003	0.000	-	2016-03-16 13:56
+ | discuss 12250 - Language Detection	 Accepted	ANSI C	0.000	0.000	551	2016-03-16 13:56
+ | discuss 227 - Puzzle	 Output limit	ANSI C	3.986	0.000	-	2016-03-15 21:19
+ | discuss 227 - Puzzle	 Output limit	ANSI C	3.992	0.000	-	2016-03-15 21:14
+ | discuss 227 - Puzzle	 Output limit	ANSI C	3.992	0.000	-	2016-03-15 21:08
+ | discuss 227 - Puzzle	 Output limit	ANSI C	3.989	0.000	-	2016-03-15 15:11
+ | discuss 12050 - Palindrome Numbers	 Accepted	ANSI C	0.000	0.000	30	2016-03-14 23:28
+ | discuss 623 - 500!	 Accepted	ANSI C	0.803	0.000	4174	2016-03-14 21:03
+ | discuss 483 - Word Scramble	 Accepted	ANSI C	0.000	0.000	2272	2016-03-14 16:33
+ | discuss 483 - Word Scramble	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-14 16:16
+ | discuss 483 - Word Scramble	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-14 16:10
+ | discuss 1727 - Counting Weekend Days	 Accepted	ANSI C	0.000	0.000	55	2016-03-14 15:21
+ | discuss 1727 - Counting Weekend Days	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-14 15:14
+ | discuss 1727 - Counting Weekend Days	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-14 14:47
+ | discuss 105 - The Skyline Problem	 Accepted	ANSI C	0.019	0.000	849	2016-03-14 13:12
+ | discuss 11900 - Boiled Eggs	 Accepted	ANSI C	0.000	0.000	305	2016-03-13 23:41
+ | discuss 11900 - Boiled Eggs	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-13 23:39
+ | discuss 11455 - Behold my quadrangle	 Accepted	ANSI C	0.000	0.000	548	2016-03-13 23:24
+ | discuss 11455 - Behold my quadrangle	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-13 23:19
+ | discuss 11455 - Behold my quadrangle	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-13 23:13
+ | discuss 10469 - To Carry or not to Carry	 Accepted	ANSI C	0.000	0.000	2197	2016-03-12 23:15
+ | discuss 1046 - Workshops	 Output limit	ANSI C	3.992	0.076	-	2016-03-12 23:07
+ | discuss 10260 - Soundex	 Accepted	ANSI C	0.000	0.000	1338	2016-03-12 21:36
+ | discuss 10260 - Soundex	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-12 20:42
+ | discuss 12468 - Zapping	 Accepted	ANSI C	0.000	0.000	795	2016-03-12 20:14
+ | discuss 10931 - Parity	 Accepted	ANSI C	0.000	0.000	294	2016-03-12 19:07
+ | discuss 11547 - Automatic Answer	 Accepted	ANSI C	0.000	0.000	2031	2016-03-12 17:43
+ | discuss 10929 - You can say 11	 Accepted	ANSI C	0.006	0.000	664	2016-03-12 17:13
+ | discuss 10929 - You can say 11	 SubmissionErr	ANSI C	0.000	0.000	-	2016-03-12 17:06
+ | discuss 10929 - You can say 11	 Wrong answer	ANSI C	0.006	0.000	-	2016-03-12 16:42
+ | discuss 10929 - You can say 11	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-12 16:24
+ | discuss 10929 - You can say 11	 Wrong answer	ANSI C	0.006	0.000	-	2016-03-12 16:12
+ | discuss 136 - Ugly Numbers	 Accepted	ANSI C	0.000	0.000	5126	2016-03-12 15:38
+ | discuss 10970 - Big Chocolate	 Accepted	ANSI C	0.016	0.000	701	2016-03-12 15:22
+ | discuss 1726 - Automatic Cheater Detection	 Accepted	ANSI C	0.349	0.000	33	2016-03-12 01:13
+ | discuss 10921 - Find the Telephone	 Accepted	ANSI C	0.000	0.000	1859	2016-03-12 00:14
+ | discuss 11984 - A Change in Thermal Unit	 Accepted	ANSI C	0.000	0.000	719	2016-03-11 23:48
+ | discuss 11332 - Summing Digits	 Accepted	ANSI C	0.000	0.000	1888	2016-03-11 23:35
+ | discuss 12478 - Hardest Problem Ever (Easy)	 Accepted	ANSI C	0.000	0.000	492	2016-03-11 23:22
+ | discuss 12478 - Hardest Problem Ever (Easy)	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-11 23:17
+ | discuss 10924 - Prime Words	 Accepted	ANSI C	0.000	0.000	1523	2016-03-11 22:55
+ | discuss 10924 - Prime Words	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-11 22:46
+ | discuss 382 - Perfection	 Accepted	ANSI C	0.000	0.000	2207	2016-03-11 21:31
+ | discuss 11942 - Lumberjack Sequencing	 Accepted	ANSI C	0.000	0.000	855	2016-03-11 20:30
+ | discuss 11150 - Cola	 Accepted	ANSI C	0.000	0.000	1154	2016-03-11 14:10
+ | discuss 11877 - The Coco-Cola Store	 Accepted	ANSI C	0.000	0.000	501	2016-03-11 14:00
+ | discuss 12403 - Save Setu	 Accepted	ANSI C	0.000	0.000	1162	2016-03-11 13:46
+ | discuss 10346 - Peter's Smokes	 Accepted	ANSI C	0.000	0.000	3397	2016-03-11 13:32
+ | discuss 11854 - Egypt	 Accepted	ANSI C	0.000	0.000	895	2016-03-11 13:22
+ | discuss 591 - Box of Bricks	 Accepted	ANSI C	0.000	0.000	3843	2016-03-11 13:11
+ | discuss 591 - Box of Bricks	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-11 13:03
+ | discuss 11417 - GCD	 Accepted	ANSI C	0.129	0.000	1494	2016-03-11 12:35
+ | discuss 371 - Ackermann Functions	 Accepted	ANSI C	0.046	0.000	178	2016-03-11 11:59
+ | discuss 10945 - Mother bear	 Accepted	C++	0.000	0.000	329	2016-03-11 00:10
+ | discuss 12578 - 10:6:2	 Accepted	C++	0.000	0.000	413	2016-03-10 23:28
+ | discuss 11777 - Automate the Grades	 Accepted	C++	0.000	0.000	523	2016-03-10 23:11
+ | discuss 11875 - Brick Game	 Accepted	C++	0.000	0.000	794	2016-03-10 22:40
+ | discuss 11530 - SMS Typing	 Accepted	C++	0.000	0.000	786	2016-03-10 21:48
+ | discuss 11530 - SMS Typing	 Compile error	C++	0.000	0.000	-	2016-03-10 21:46
+ | discuss 11805 - Bafana Bafana	 Accepted	C++	0.000	0.000	656	2016-03-10 17:19
+ | discuss 11764 - Jumping Mario	 Accepted	C++	0.000	0.000	1274	2016-03-10 16:55
+ | discuss 10235 - Simply Emirp	 Accepted	C++	0.003	0.000	227	2016-03-10 16:32
+ | discuss 10235 - Simply Emirp	 Wrong answer	C++	0.000	0.000	-	2016-03-10 16:22
+ | discuss 10235 - Simply Emirp	 Wrong answer	C++	0.003	0.000	-	2016-03-10 16:08
+ | discuss 11689 - Soda Surpler	 Accepted	C++	0.000	0.000	469	2016-03-10 15:49
+ | discuss 11185 - Ternary	 Accepted	C++	0.000	0.000	884	2016-03-10 15:25
+ | discuss 11185 - Ternary	 Wrong answer	C++	0.000	0.000	-	2016-03-10 14:33
+ | discuss 11185 - Ternary	 Wrong answer	C++	0.000	0.000	-	2016-03-10 14:26
+ | discuss 371 - Ackermann Functions	 Wrong answer	C++	0.000	0.000	-	2016-03-10 12:12
+ | discuss 371 - Ackermann Functions	 Runtime error	C++	0.000	0.000	-	2016-03-10 10:16
+ | discuss 371 - Ackermann Functions	 Runtime error	C++	0.000	0.000	-	2016-03-10 10:13
+ | discuss 371 - Ackermann Functions	 Time limit	C++	3.000	0.000	-	2016-03-10 09:41
+ | discuss 10696 - f91	 Accepted	C++	0.069	0.000	1060	2016-03-10 00:42
+ | discuss 10696 - f91	 SubmissionErr	C++	0.000	0.000	-	2016-03-10 00:22
+ | discuss 10370 - Above Average	 Accepted	C++	0.000	0.000	923	2016-03-08 22:31
+ | discuss 11936 - The Lazy Lumberjacks	 Accepted	C++	0.000	0.000	538	2016-03-08 22:08
+ | discuss 12577 - Hajj-e-Akbar	 Accepted	C++	0.000	0.000	1273	2016-03-08 21:52
+ | discuss 11219 - How old are you?	 Accepted	C++	0.000	0.000	517	2016-03-08 21:38
+ | discuss 11219 - How old are you?	 Wrong answer	C++	0.000	0.000	-	2016-03-08 21:13
+ | discuss 11498 - Division of Nlogonia	 Accepted	C++	0.000	0.000	1813	2016-03-08 20:03
+ | discuss 401 - Palindromes	 Accepted	ANSI C	0.000	0.000	520	2016-03-08 01:01
+ | discuss 11479 - Is this the easiest problem?	 Accepted	ANSI C	0.000	0.000	984	2016-03-07 23:19
+ | discuss 11479 - Is this the easiest problem?	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-07 23:05
+ | discuss 11462 - Age Sort	 Accepted	ANSI C	0.252	0.000	384	2016-03-07 22:37
+ | discuss 11727 - Cost Cutting	 Accepted	ANSI C	0.000	0.000	2662	2016-03-07 21:55
+ | discuss 11727 - Cost Cutting	 Runtime error	ANSI C	0.000	0.000	-	2016-03-07 21:51
+ | discuss 10327 - Flip Sort	 Accepted	ANSI C	0.013	0.000	354	2016-03-07 01:36
+ | discuss 10035 - Primary Arithmetic	 Accepted	ANSI C	0.003	0.000	916	2016-03-06 08:33
+ | discuss 11636 - Hello World!	 Accepted	ANSI C	0.000	0.000	478	2016-03-06 01:06
+ | discuss 11192 - Group Reverse	 Accepted	ANSI C	0.000	0.000	720	2016-03-05 22:51
+ | discuss 10035 - Primary Arithmetic	 Wrong answer	ANSI C	0.003	0.000	-	2016-03-05 22:04
+ | discuss 10035 - Primary Arithmetic	 Wrong answer	ANSI C	0.003	0.000	-	2016-03-05 21:59
+ | discuss 10035 - Primary Arithmetic	 Wrong answer	ANSI C	0.003	0.000	-	2016-03-05 21:58
+ | discuss 10035 - Primary Arithmetic	 Wrong answer	ANSI C	0.003	0.000	-	2016-03-05 21:52
+ | discuss 107 - The Cat in the Hat	 Accepted	ANSI C	0.083	0.000	727	2016-03-05 20:30
+ | discuss 136 - Ugly Numbers	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-05 14:08
+ | discuss 136 - Ugly Numbers	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-05 14:02
+ | discuss 299 - Train Swapping	 Accepted	ANSI C	0.000	0.000	4561	2016-03-05 01:50
+ | discuss 107 - The Cat in the Hat	 Wrong answer	ANSI C	0.039	0.000	-	2016-03-04 23:31
+ | discuss 107 - The Cat in the Hat	 Wrong answer	ANSI C	0.039	0.000	-	2016-03-04 23:20
+ | discuss 11057 - Exact Sum	 Accepted	ANSI C	0.206	0.000	2753	2016-03-01 23:27
+ | discuss 11057 - Exact Sum	 Wrong answer	ANSI C	0.209	0.000	-	2016-03-01 21:47
+ | discuss 11057 - Exact Sum	 Wrong answer	ANSI C	0.206	0.000	-	2016-03-01 21:18
+ | discuss 11057 - Exact Sum	 SubmissionErr	ANSI C	0.000	0.000	-	2016-03-01 21:09
+ | discuss 102 - Ecological Bin Packing	 Accepted	ANSI C	0.013	0.000	503	2016-03-01 20:49
+ | discuss 102 - Ecological Bin Packing	 Compile error	ANSI C	0.000	0.000	-	2016-03-01 20:46
+ | discuss 10038 - Jolly Jumpers	 Accepted	ANSI C	0.000	0.000	845	2016-03-01 20:09
+ | discuss 10038 - Jolly Jumpers	 Accepted	ANSI C	0.000	0.000	844	2016-03-01 20:09
+ | discuss 10038 - Jolly Jumpers	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-01 19:34
+ | discuss 10038 - Jolly Jumpers	 Wrong answer	ANSI C	0.000	0.000	-	2016-03-01 19:21
+ | discuss 10038 - Jolly Jumpers	 Time limit	ANSI C	3.000	0.000	-	2016-02-29 20:57
+ | discuss 10038 - Jolly Jumpers	 Time limit	ANSI C	3.000	0.000	-	2016-02-29 20:41
+ | discuss 10038 - Jolly Jumpers	 Time limit	ANSI C	3.000	0.000	-	2016-02-29 20:22
+ | discuss 10038 - Jolly Jumpers	 Time limit	ANSI C	3.000	0.000	-	2016-02-29 19:45
+ | discuss 11388 - GCD LCM	 Accepted	ANSI C	0.000	0.000	653	2016-02-29 19:17
+ | discuss 11461 - Square Numbers	 Accepted	ANSI C	0.046	0.000	4704	2016-02-26 01:10
+ | discuss 11057 - Exact Sum	 Time limit	ANSI C	3.000	0.000	-	2016-02-26 00:55
+ | discuss 102 - Ecological Bin Packing	 Compile error	ANSI C	0.000	0.000	-	2016-02-21 16:48
+ | discuss 102 - Ecological Bin Packing	 Compile error	ANSI C	0.000	0.000	-	2016-02-21 16:45
+ | discuss 102 - Ecological Bin Packing	 Compile error	ANSI C	0.000	0.000	-	2016-02-21 16:43
+ | discuss 10783 - Odd Sum	 Accepted	ANSI C	0.000	0.000	3730	2016-02-21 15:54
+ | discuss 10783 - Odd Sum	 Wrong answer	ANSI C	0.000	0.000	-	2016-02-21 15:48
+ | discuss 11799 - Horror Dash	 Accepted	ANSI C	0.000	0.000	1481	2016-02-21 15:30
+ | discuss 494 - Kindergarten Counting Game	 Accepted	ANSI C	0.000	0.000	5479	2016-02-21 15:14
+ | discuss 494 - Kindergarten Counting Game	 Wrong answer	ANSI C	0.000	0.000	-	2016-02-21 14:56
+ | discuss 494 - Kindergarten Counting Game	 Wrong answer	ANSI C	0.000	0.000	-	2016-02-21 14:49
+ | discuss 12050 - Palindrome Numbers	 Time limit	ANSI C	3.000	0.000	-	2016-02-20 00:16
+ | discuss 12050 - Palindrome Numbers	 Time limit	ANSI C	3.000	0.000	-	2016-02-20 00:10
+ | discuss 11172 - Relational Operator	 Accepted	ANSI C	0.000	0.000	5188	2016-02-19 23:48
+ | discuss 10018 - Reverse and Add	 Accepted	ANSI C	0.000	0.000	606	2016-02-19 23:36
+ | discuss 10018 - Reverse and Add	 Runtime error	ANSI C	0.000	0.000	-	2016-02-19 23:33
+ | discuss 11489 - Integer Game	 Accepted	ANSI C	0.046	0.000	962	2016-02-19 22:37
+ | discuss 11489 - Integer Game	 Wrong answer	ANSI C	0.000	0.000	-	2016-02-19 22:14
+ | discuss 11489 - Integer Game	 Wrong answer	ANSI C	0.000	0.000	-	2016-02-19 21:49
+ | discuss 272 - TEX Quotes	 Accepted	ANSI C	0.000	0.000	2117	2016-02-19 11:23
+ | discuss 1726 - Automatic Cheater Detection	 Time limit	ANSI C	3.000	0.000	-	2016-02-19 11:03
+ | discuss 1726 - Automatic Cheater Detection	 Time limit	ANSI C	3.000	0.000	-	2016-02-19 10:26
+ | discuss 1726 - Automatic Cheater Detection	 Time limit	ANSI C	3.000	0.000	-	2016-02-19 10:07
+ | discuss 1726 - Automatic Cheater Detection	 Time limit	ANSI C	3.000	0.000	-	2016-02-19 09:59
+ | discuss 100 - The 3n + 1 problem	 Accepted	ANSI C	0.393	0.000	17803	2016-02-16 23:15
+ | discuss 100 - The 3n + 1 problem	 Wrong answer	ANSI C	0.166	0.000	-	2016-02-16 23:04
+ | discuss 458 - The Decoder	 Accepted	ANSI C	0.000	0.000	33	2016-02-16 22:46
+ | discuss 10300 - Ecological Premium	 Accepted	ANSI C	0.000	0.000	4913	2016-02-16 22:20
+ | discuss 10071 - Back to High School Physics	 Accepted	ANSI C	0.019	0.000	3525	2016-02-16 00:07
+ | discuss 10055 - Hashmat the Brave Warrior	 Accepted	ANSI C	0.029	0.000	1713	2016-02-15 12:33
+ | discuss 10055 - Hashmat the Brave Warrior	 Wrong answer	ANSI C	0.000	0.000	-	2016-02-12 02:49
+ | discuss 10055 - Hashmat the Brave Warrior	 Wrong answer	ANSI C	0.029	0.000	-	2016-02-10 22:33
+ | discuss 10055 - Hashmat the Brave Warrior	 Wrong answer	ANSI C	0.000	0.000	-	2016-02-10 22:30
+ | discuss 10055 - Hashmat the Brave Warrior	 Wrong answer	ANSI C	0.000	0.000	-	2016-02-10 22:15
+ | discuss 10055 - Hashmat the Brave Warrior	 Wrong answer	ANSI C	0.000	0.000	-	2016-02-10 22:12
+ | discuss 10055 - Hashmat the Brave Warrior	 Output limit	ANSI C	3.982	0.000	-	2016-02-10 21:58
+ | discuss 10055 - Hashmat the Brave Warrior	 Wrong answer	ANSI C	0.029	0.000	-	2016-02-10 21:51
+ | discuss 10055 - Hashmat the Brave Warrior	 Wrong answer	ANSI C	0.029	0.000	-	2016-02-10 21:47
+ | discuss 10055 - Hashmat the Brave Warrior	 Wrong answer	ANSI C	0.029	0.000	-	2016-02-10 21:27
+ | discuss 10055 - Hashmat the Brave Warrior	 Wrong answer	ANSI C	0.029	0.000	-	2016-02-10 21:24
+ | discuss 10055 - Hashmat the Brave Warrior	 Wrong answer	ANSI C	0.029	0.000	-	2016-02-10 21:14
+ | discuss 10055 - Hashmat the Brave Warrior	 Wrong answer	ANSI C	0.000	0.000	-	2016-02-10 20:34
+ | discuss 10055 - Hashmat the Brave Warrior	 Wrong answer	ANSI C	0.000	0.000	-	2016-02-10 20:31
+ | discuss 10055 - Hashmat the Brave Warrior	 Wrong answer	ANSI C	0.000	0.000	-	2016-02-10 20:23
+ | discuss 100 - The 3n + 1 problem	 Wrong answer	ANSI C	0.000	0.000	-	2016-02-08 23:26
+ | discuss 100 - The 3n + 1 problem	 Wrong answer	ANSI C	0.000	0.000	-	2016-02-08 23:22
