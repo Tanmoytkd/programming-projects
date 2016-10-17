@@ -1,3 +1,9 @@
+/*
+ID: tanmoyk2
+PROG:
+LANG: C++11
+*/
+
 #include <bits/stdc++.h>
 #define pf printf
 #define sf scanf
@@ -11,6 +17,12 @@
 using namespace std;
 
 int main() {
+    #ifdef TKD
+    //freopen("i.txt", "r", stdin);
+    freopen("test.in", "r", stdin);
+    freopen("test.out", "w", stdout);
+    #endif
+
 
     return 0;
 }
