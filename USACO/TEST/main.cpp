@@ -1,6 +1,6 @@
 /*
 ID: tanmoyk2
-PROG:
+PROG: test
 LANG: C++11
 */
 
@@ -19,10 +19,16 @@ using namespace std;
 int main() {
     #ifdef TKD
     //freopen("i.txt", "r", stdin);
-    //freopen("test.in", "r", stdin);
-    //freopen("test.out", "w", stdout);
+    //freopen("output.txt", "w", stdout);
     #endif
 
+    freopen("test.in", "r", stdin);
+    freopen("test.out", "w", stdout);
+
+    int a,b;
+    sf2(a,b);
+    int res=a+b;
+    pf1(res);
 
     return 0;
 }

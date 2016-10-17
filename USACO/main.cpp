@@ -17,11 +17,9 @@ LANG: C++11
 using namespace std;
 
 int main() {
-    #ifdef TKD
-    //freopen("i.txt", "r", stdin);
-    //freopen("test.in", "r", stdin);
-    //freopen("test.out", "w", stdout);
-    #endif
+
+    freopen(".in", "r", stdin);
+    freopen(".out", "w", stdout);
 
 
     return 0;
