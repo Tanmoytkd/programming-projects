@@ -27,8 +27,8 @@ struct bead {
 
 int main() {
 
-    //freopen("beads.in", "r", stdin);
-    //freopen("beads.out", "w", stdout);
+    freopen("beads.in", "r", stdin);
+    freopen("beads.out", "w", stdout);
 
     int n;
     sf1(n);
@@ -44,12 +44,39 @@ int main() {
         else vec.pb(bead(s[i], 1));
     }
 
+    int vecsize=vec.size();
 
 
 
+    int imax=0;
 
+    for(int i=0; i<vecsize; i++) {
+        int counter=0;
+        stack<char> col;
+        for(int k=i; ; k++) {
+            int j=k%vecsize;
+            if(vec[j].color=='w') counter+=vec[j].counter;
+            else if(col.empty()) {
+                counter+=vec[j].counter;
+                col.push(vec[j].color);
+            }
+            else if(vec[j].color==col.top()) {
+                counter+=vec[j].counter;
+            }
+            else if(col.size()==1) {
+                counter+=vec[j].counter;
+                col.push(vec[j].color);
+            }
+            else break;
 
+            if(counter>imax) imax=counter;
 
+            if(j==i-1) break;
+            if(i==0 && j==vecsize-1) break;
+        }
+    }
+
+    pf1(imax);
 
     return 0;
 }
