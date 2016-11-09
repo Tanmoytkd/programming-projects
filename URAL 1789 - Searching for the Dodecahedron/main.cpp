@@ -27,5 +27,13 @@ int main() {
     #endif
 
 
+    int n;
+    sf1(n);
+
+    pf1(n<<1);
+
+    for(int i=1; i<=n; i++) pf("%d ", i);
+    for(int i=n; i>1; i--) pf("%d ", i);
+    pf1(1);
     return 0;
 }

@@ -19,6 +19,21 @@ LANG: C++11
 
 using namespace std;
 
+int dp[35][4], n;
+
+int go(int pos, int stk) {
+    if(pos==n) {
+        if(stk==2) return 1;
+        else return 2;
+    }
+    if(dp[pos][stk]==-1) {
+        int l=go(pos+1, 0), r=0;
+        if(stk<2) r=go(pos+1, stk+1);
+        dp[pos][stk]=l+r;
+    }
+    return dp[pos][stk];
+}
+
 int main() {
     #ifdef TKD
     //freopen("i.txt", "r", stdin);
@@ -26,6 +41,14 @@ int main() {
     //freopen("test.out", "w", stdout);
     #endif
 
+    while(sf1(n) && n) {
+        memset(dp, -1, sizeof(dp));
 
+        int res=1<<n;
+
+        res-=go(1, 0);
+
+        pf1(res);
+    }
     return 0;
 }
