@@ -503,6 +503,30 @@ class bigInt {
         return *this==x || *this<x;
     }
 
+    bigInt& operator++ () {
+        *this=*this+1;
+        return *this;
+    }
+
+    bigInt operator++(int) {
+        bigInt temp=*this;
+        operator++();
+        return temp;
+    }
+
+    bigInt& operator-- () {
+        *this=*this-1;
+        return *this;
+    }
+
+    bigInt operator--(int) {
+        bigInt temp=*this;
+        operator--();
+        return temp;
+    }
+
+    operator int() const {return atoi(val());}
+    operator long long() const {return atoll(val());}
     friend istream& operator>> (istream&, bigInt&);
     friend ostream& operator<< (ostream&, bigInt&);
 };
@@ -531,6 +555,9 @@ int main()
 //    cout << s3 << endl;
 
     bigInt num="209";
+    num=0+(int)num;
+    ++num;
+    num--;
     num+=(bigInt)"1"+(-2)+string("2")+ (long long) 0;
     num._reverse();
     cout << num << endl;
