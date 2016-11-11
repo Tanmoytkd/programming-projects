@@ -115,12 +115,20 @@ class bigInt {
         return value;
     }
 
+    const char * strval() const{
+        return value.c_str();
+    }
+
     string val() {
-        return value;
+        string res="";
+        if(sign=='-') res="-";
+        return res+value;
     }
 
     const char * val() const{
-        return value.c_str();
+        string res="";
+        if(sign=='-') res="-";
+        return (res+value).c_str();
     }
 
     char strsign() {
