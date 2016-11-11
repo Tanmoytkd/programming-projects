@@ -16,6 +16,12 @@ class bigInt {
 		return bigInt(sign, val);
     }
 
+    bigInt _reverse() {
+        reverse(value.begin(), value.end());
+        trim(value);
+        return *this;
+    }
+
     int strcompare(const string &x, const string &y) {
         if(x.length()>y.length()) return 1;
         else if(x.length()<y.length()) return -1;
@@ -400,6 +406,10 @@ int main()
 //    cout << s3 << endl;
 //    s3=x.difference(s1, s2);
 //    cout << s3 << endl;
+
+    bigInt num=210;
+    num._reverse();
+    cout << num.strval() << endl;
 
     string s1;
     int y;
