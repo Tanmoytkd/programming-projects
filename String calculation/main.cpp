@@ -9,7 +9,13 @@ class bigInt {
     char sign;
 
     public:
+    bigInt purify() {
+        if(sign=='-' && trim(value)=="0") sign='+';
+        return *this;
+    }
+
     bigInt reverse_() {
+        purify();
 		string val=value;
 		reverse(val.begin(), val.end());
 		trim(val);
@@ -17,6 +23,7 @@ class bigInt {
     }
 
     bigInt _reverse() {
+        purify();
         reverse(value.begin(), value.end());
         trim(value);
         return *this;
@@ -42,11 +49,15 @@ class bigInt {
     }
 
     bigInt() {
+        sign='+';
+        value="0";
+        purify();
     }
 
     bigInt(char s, string &val) {
         sign=s;
         value=trim(val);
+        purify();
     }
 
     bigInt(string &val) {
@@ -62,6 +73,7 @@ class bigInt {
             sign='+';
             value=trim(val);
         }
+        purify();
     }
 
     bigInt(const char * str) {
@@ -78,6 +90,7 @@ class bigInt {
             sign='+';
             value=trim(val);
         }
+        purify();
     }
 
     template<typename T>
@@ -95,10 +108,19 @@ class bigInt {
         } while(x);
         reverse(val.begin(), val.end());
         value=val;
+        purify();
     }
 
     string strval() {
         return value;
+    }
+
+    string val() {
+        return value;
+    }
+
+    const char * val() const{
+        return value.c_str();
     }
 
     char strsign() {
@@ -118,11 +140,13 @@ class bigInt {
             sign='+';
             value=trim(val);
         }
+        purify();
     }
 
     void operator= (bigInt x) {
         value = x.strval();
         sign = x.strsign();
+        purify();
     }
 
     template<typename T>
@@ -140,6 +164,7 @@ class bigInt {
         } while(x);
         reverse(val.begin(), val.end());
         value=val;
+        purify();
     }
 
 
@@ -280,7 +305,7 @@ class bigInt {
         char newsign;
         if(sign==num.strsign()) {
             sum = add(value, numval);
-            return bigInt(sign, sum);
+            return bigInt(sign, sum).purify();
         }
         else {
             sum = difference(value, numval);
@@ -289,13 +314,25 @@ class bigInt {
             else if(compare<0) newsign=num.strsign();
             else newsign='+';
 
-            return bigInt(newsign, sum);
+            return bigInt(newsign, sum).purify();
         }
     }
 
     template<class T>
     bigInt operator+ (T x) {
         return *this+bigInt(x);
+    }
+
+    bigInt operator+= (bigInt x) {
+        bigInt c= *this+x;
+        sign=c.strsign();
+        value=c.strval();
+        return *this;
+    }
+
+    template<class T>
+    bigInt operator+= (T x) {
+        return *this+= bigInt(x);
     }
 
     bigInt operator- (bigInt num) {
@@ -305,16 +342,16 @@ class bigInt {
             diff=difference(value, numval);
             int compare = strcompare(value, numval);
             if(compare>0) {
-                return bigInt (sign, diff);
+                return bigInt (sign, diff).purify();
             }
             else if(compare<0) {
-                return bigInt(toogle(sign), diff);
+                return bigInt(toogle(sign), diff).purify();
             }
             else return bigInt('+', diff);
         }
         else {
             diff=add(value, numval);
-            return bigInt(sign, diff);
+            return bigInt(sign, diff).purify();
         }
     }
 
@@ -323,11 +360,23 @@ class bigInt {
         return *this-bigInt(x);
     }
 
+    bigInt operator-= (bigInt x) {
+        bigInt c= *this-x;
+        sign=c.strsign();
+        value=c.strval();
+        return *this;
+    }
+
+    template<class T>
+    bigInt operator-= (T x) {
+        return *this-= bigInt(x);
+    }
+
     bigInt operator* (bigInt num) {
         string res=multiply(value, num.strval());
         if(res=="0") return bigInt('+', res);
         if(sign==num.strsign()) return bigInt('+', res);
-        else return bigInt('-', res);
+        else return bigInt('-', res).purify();
     }
 
     template<class T>
@@ -335,12 +384,24 @@ class bigInt {
         return *this*bigInt(x);
     }
 
+    bigInt operator*= (bigInt x) {
+        bigInt c= *this*x;
+        sign=c.strsign();
+        value=c.strval();
+        return *this;
+    }
+
+    template<class T>
+    bigInt operator*= (T x) {
+        return *this*= bigInt(x);
+    }
+
     bigInt operator/ (bigInt num) {
         if(num==0) throw -1;
         string res=divide(value, num.strval());
         if(res=="0") return bigInt('+', res);
         if(sign==num.strsign()) return bigInt('+', res);
-        else return bigInt('-', res);
+        else return bigInt('-', res).purify();
     }
 
     template<class T>
@@ -348,14 +409,38 @@ class bigInt {
         return *this/bigInt(x);
     }
 
+    bigInt operator/= (bigInt x) {
+        bigInt c= *this/x;
+        sign=c.strsign();
+        value=c.strval();
+        return *this;
+    }
+
+    template<class T>
+    bigInt operator/= (T x) {
+        return *this/= bigInt(x);
+    }
+
     bigInt operator% (bigInt num) {
         string m=mod(value, num.strval());
-        return bigInt(sign, m);
+        return bigInt(sign, m).purify();
     }
 
     template<class T>
     bigInt operator% (T x) {
         return *this%bigInt(x);
+    }
+
+    bigInt operator%= (bigInt x) {
+        bigInt c= *this%x;
+        sign=c.strsign();
+        value=c.strval();
+        return *this;
+    }
+
+    template<class T>
+    bigInt operator%= (T x) {
+        return *this%= bigInt(x);
     }
 
     bool operator== (bigInt num) {
@@ -409,7 +494,21 @@ class bigInt {
     bool operator<= (T x) {
         return *this==x || *this<x;
     }
+
+    friend istream& operator>> (istream&, bigInt&);
+    friend ostream& operator<< (ostream&, bigInt&);
 };
+
+istream& operator>> (istream& in, bigInt& n) {
+    string s;
+    in >> s;
+    n = bigInt(s);
+}
+
+ostream& operator<< (ostream& out, bigInt& n) {
+    if(n.sign=='-') out << n.sign;
+    out<< n.value;
+}
 
 int main()
 {
@@ -424,9 +523,9 @@ int main()
 //    cout << s3 << endl;
 
     bigInt num="209";
-    num=num+"1"+(-2)+string("2")+ (long long) 0;
+    num+=(bigInt)"1"+(-2)+string("2")+ (long long) 0;
     num._reverse();
-    cout << num.strval() << endl;
+    cout << num << endl;
 
     string s1;
     int y;
@@ -441,26 +540,35 @@ int main()
     mod=x%y;
 
     cout << "x= ";
-    if(x.strsign()=='-') cout << x.strsign();
-    cout << x.strval() << endl << endl;
+//    if(x.strsign()=='-') cout << x.strsign();
+//    cout << x.strval() << endl << endl;
+    cout << x << endl;
 
     /*cout << "y" << endl;
     if(y.strsign()=='-') cout << y.strsign();
     cout << y.strval() << endl << endl;*/
+    cout << "y= " << y << endl;
 
-    if(sum.strsign()=='-') cout << sum.strsign();
-    cout << sum.strval() << endl;
+//    if(sum.strsign()=='-') cout << sum.strsign();
+//    cout << sum.strval() << endl;
+    cout << sum << endl;
 
-    if(difference.strsign()=='-') cout << difference.strsign();
-    cout << difference.strval() << endl;
+//    if(difference.strsign()=='-') cout << difference.strsign();
+//    cout << difference.strval() << endl;
+    cout << difference << endl;
 
-    if(product.strsign()=='-') cout << product.strsign();
-    cout << product.strval() << endl;
+//    if(product.strsign()=='-') cout << product.strsign();
+//    cout << product.strval() << endl;
+    cout << product << endl;
 
-    if(div.strsign()=='-') cout << div.strsign();
-    cout << div.strval() << endl;
+//    if(div.strsign()=='-') cout << div.strsign();
+//    cout << div.strval() << endl;
+    cout << div << endl;
 
-    if(mod.strsign()=='-') cout << mod.strsign();
-    cout << mod.strval() << endl;
+//    if(mod.strsign()=='-') cout << mod.strsign();
+//    cout << mod.strval() << endl;
+    cout << mod << endl;
+//    cout << -3%(2) << endl;
+
     return 0;
 }
