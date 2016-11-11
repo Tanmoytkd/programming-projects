@@ -64,6 +64,22 @@ class bigInt {
         }
     }
 
+    bigInt(const char * str) {
+        string val(str);
+        if(val[0]=='-') {
+            sign='-';
+            value=trim(val, 1);
+        }
+        else if(val[0]=='+') {
+            sign='+';
+            value=trim(val, 1);
+        }
+        else {
+            sign='+';
+            value=trim(val);
+        }
+    }
+
     template<typename T>
     bigInt(T x) {
         if(x<0) {
@@ -407,7 +423,8 @@ int main()
 //    s3=x.difference(s1, s2);
 //    cout << s3 << endl;
 
-    bigInt num=210;
+    bigInt num="209";
+    num=num+"1"+(-2)+string("2")+ (long long) 0;
     num._reverse();
     cout << num.strval() << endl;
 
