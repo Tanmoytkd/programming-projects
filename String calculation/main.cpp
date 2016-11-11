@@ -526,10 +526,51 @@ class bigInt {
     }
 
     operator int() const {return atoi(val());}
+    operator long() const {return atol(val());}
     operator long long() const {return atoll(val());}
     friend istream& operator>> (istream&, bigInt&);
     friend ostream& operator<< (ostream&, bigInt&);
+
+    template<class T>
+    friend bigInt operator+ (T, bigInt);
+
+    template<class T>
+    friend bigInt operator- (T, bigInt);
+
+    template<class T>
+    friend bigInt operator* (T, bigInt);
+
+    template<class T>
+    friend bigInt operator/ (T, bigInt);
+
+    template<class T>
+    friend bigInt operator% (T, bigInt);
 };
+
+template<class T>
+bigInt operator+ (T x, bigInt y) {
+    return bigInt(x).operator+(y);
+}
+
+template<class T>
+bigInt operator- (T x, bigInt y) {
+    return bigInt(x).operator-(y);
+}
+
+template<class T>
+bigInt operator* (T x, bigInt y) {
+    return bigInt(x).operator*(y);
+}
+
+template<class T>
+bigInt operator/ (T x, bigInt y) {
+    return bigInt(x).operator/(y);
+}
+
+template<class T>
+bigInt operator% (T x, bigInt y) {
+    return bigInt(x).operator%(y);
+}
 
 istream& operator>> (istream& in, bigInt& n) {
     string s;
@@ -555,7 +596,12 @@ int main()
 //    cout << s3 << endl;
 
     bigInt num="209";
-    num=0+(int)num;
+    num=0+num;
+    num-=0;
+    num=1*num;
+    num/=1;
+    num=num/1;
+    num=num*num/num;
     ++num;
     num--;
     num+=(bigInt)"1"+(-2)+string("2")+ (long long) 0;
