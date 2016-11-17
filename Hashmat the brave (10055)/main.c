@@ -4,7 +4,7 @@ int main()
 {
     long long a, b, res;
     while(scanf("%lld %lld", &a, &b)!= EOF) {
-        res = ((a-b)>=0) ? a-b : 0-(a-b);
+        res = (a>b) ? a-b : b-a;
         printf("%lld\n",  res);
     }
     return 0;
