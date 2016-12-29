@@ -585,6 +585,15 @@ ostream& operator<< (ostream& out, bigInt& n) {
 
 int main()
 {
+    int x=10000;
+    bigInt fact[x];
+    fact[0]=1;
+    for(int i=1; i<=x; i++) {
+        fact[i]= fact[i-1]*i;
+        //cout << i << ":     " << fact[i] << endl;
+    }
+    cout << fact[x] << endl;
+
 //    string s1="10", s2="3", s3;
 //    bigInt x;
 //    s1=x.trim(s1);
@@ -595,6 +604,7 @@ int main()
 //    s3=x.difference(s1, s2);
 //    cout << s3 << endl;
 
+/*
     bigInt num="209";
     num=0+num;
     num-=0;
@@ -628,7 +638,7 @@ int main()
     /*cout << "y" << endl;
     if(y.strsign()=='-') cout << y.strsign();
     cout << y.strval() << endl << endl;*/
-    cout << "y= " << y << endl;
+/*    cout << "y= " << y << endl;
 
 //    if(sum.strsign()=='-') cout << sum.strsign();
 //    cout << sum.strval() << endl;
@@ -650,6 +660,7 @@ int main()
 //    cout << mod.strval() << endl;
     cout << mod << endl;
 //    cout << -3%(2) << endl;
+*/
 
     return 0;
 }
