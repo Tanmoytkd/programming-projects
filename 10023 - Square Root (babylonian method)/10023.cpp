@@ -1,7 +1,32 @@
-#include <iostream>
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
+#define pii pair<int,int>
+#define mkp make_pair
+#define fs first
+#define sc second
+#define pb push_back
+#define ppb pop_back()
+#define pf printf
+#define pf1(a) printf("%d\n",a)
+#define hi printf("hi!\n");
+#define sf scanf
+#define sf1(a) scanf("%d",&a)
+#define sf2(a,b) scanf("%d %d",&a,&b)
+#define sf3(a,b,c) scanf("%d %d %d",&a,&b,&c)
+#define sf1ll(a) scanf("%I64d",&a)
+#define sf2ll(a,b) scanf("%I64d %I64d",&a,&b)
+#define sf3ll(a,b,c) scanf("%I64d %I64d %I64d",&a,&b,&c)
+#define pcase(x) printf("Case %d: ",x)
+#define MX 1000000007
+#define inf 1000000007
+#define pi acos(-1.0)
+#define mem(arr,x) memset((arr), (x), sizeof((arr)));
+#define FOR(i,x) for(int i=0;i<(x); i++)
+#define FOR1(i, x) for(int i = 1; i<=x ; i++)
 
 using namespace std;
+typedef long long int lint;
+typedef double dbl;
+
 
 class bigInt {
     private:
@@ -16,10 +41,10 @@ class bigInt {
 
     bigInt reverse_() {
         purify();
-		string val=value;
-		reverse(val.begin(), val.end());
-		trim(val);
-		return bigInt(sign, val);
+        string val=value;
+        reverse(val.begin(), val.end());
+        trim(val);
+        return bigInt(sign, val);
     }
 
     bigInt _reverse() {
@@ -583,84 +608,41 @@ ostream& operator<< (ostream& out, bigInt& n) {
     out<< n.value;
 }
 
+typedef bigInt bint;
+
+bigInt root(bigInt & num, bigInt start, bigInt fin) {
+    if(start>fin) return 1;
+    bint mid=(start+fin)/2;
+    bint n=mid*mid;
+    if(n == num) return mid;
+    if(n<num) return root(num, mid+1, fin);
+    if(n>num) return root(num, start, mid-1);
+}
+
+bigInt root(bigInt & num) {
+    bint fin=1;
+    while(fin*fin < num) {
+        fin*=10;
+    }
+    return root(num, 0, fin);
+}
+
 int main()
 {
-    int x=1000;
-    bigInt fact[x];
-    fact[0]=1;
-    for(int i=1; i<=x; i++) {
-        fact[i]= fact[i-1]*i;
-        //cout << i << ":     " << fact[i] << endl;
+    int t, tst = 1;
+
+    sf1(t);
+
+    while(t--) {
+        string s;
+        cin >> s;
+
+        bigInt num=s;
+
+        bint res=root(num);
+
+        cout << res << endl;
+        if(t) puts("");
     }
-    cout << fact[x] << endl;
-
-//    string s1="10", s2="3", s3;
-//    bigInt x;
-//    s1=x.trim(s1);
-//    cout << s1 << " " << s2 << endl;
-//
-//    s3=x.add(s1, s2);
-//    cout << s3 << endl;
-//    s3=x.difference(s1, s2);
-//    cout << s3 << endl;
-
-/*
-    bigInt num="209";
-    num=0+num;
-    num-=0;
-    num=1*num;
-    num/=1;
-    num=num/1;
-    num=num*num/num;
-    ++num;
-    num--;
-    num+=(bigInt)"1"+(-2)+string("2")+ (long long) 0;
-    num._reverse();
-    cout << num << endl;
-
-    string s1;
-    int y;
-    cin >> s1 >> y;
-    bigInt x(s1), difference, sum, product, div, mod;
-    if(x>=y) cout << "greater than or equal" << endl;
-    if(x<=y) cout << "less than or equal" << endl;
-    sum=x+y;
-    difference=x-y;
-    product=x*y;
-    div=x/y;
-    mod=x%y;
-
-    cout << "x= ";
-//    if(x.strsign()=='-') cout << x.strsign();
-//    cout << x.strval() << endl << endl;
-    cout << x << endl;
-
-    /*cout << "y" << endl;
-    if(y.strsign()=='-') cout << y.strsign();
-    cout << y.strval() << endl << endl;*/
-/*    cout << "y= " << y << endl;
-
-//    if(sum.strsign()=='-') cout << sum.strsign();
-//    cout << sum.strval() << endl;
-    cout << sum << endl;
-
-//    if(difference.strsign()=='-') cout << difference.strsign();
-//    cout << difference.strval() << endl;
-    cout << difference << endl;
-
-//    if(product.strsign()=='-') cout << product.strsign();
-//    cout << product.strval() << endl;
-    cout << product << endl;
-
-//    if(div.strsign()=='-') cout << div.strsign();
-//    cout << div.strval() << endl;
-    cout << div << endl;
-
-//    if(mod.strsign()=='-') cout << mod.strsign();
-//    cout << mod.strval() << endl;
-    cout << mod << endl;
-//    cout << -3%(2) << endl;
-*/
-
     return 0;
 }

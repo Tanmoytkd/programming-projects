@@ -7,7 +7,7 @@
 #define ppb pop_back()
 #define pf printf
 #define pf1(a) printf("%d\n",a)
-#define hi printf("hi!\n");
+#define hi() printf("hi!\n")
 #define sf scanf
 #define sf1(a) scanf("%d",&a)
 #define sf2(a,b) scanf("%d %d",&a,&b)
