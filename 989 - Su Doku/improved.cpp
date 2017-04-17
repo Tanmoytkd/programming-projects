@@ -29,7 +29,7 @@ void rec(int r, int c) {
 	for(int i=1; i<=rows; i++) {
 		if(found) return;
 
-		int exist = row[r].find(i)!=row[r].end() || col[c].find(i)!=col[c].end() || box[ibox].find(i)!=box[ibox].end();
+		int exist = row[r].count(i)==1 || col[c].count(i)==1 || box[ibox].count(i)==1;
 		if(exist) continue;
 
 
@@ -63,10 +63,10 @@ void rec(int r, int c) {
 }
 
 int main() {
-    #ifdef TKD
+    //#ifdef TKD
     freopen("input.txt", "r", stdin);
-    //freopen("output.txt", "w", stdout);
-    #endif
+    freopen("output.txt", "w", stdout);
+    //#endif
 
 	int first=1;
 	while(sc("%d", &n)==1) {
@@ -98,13 +98,13 @@ int main() {
 			}
 		}
 
-//		cout << endl << endl;
-//		for(int i=0; i<rows; i++) {
-//				for(int j=0; j<cols; j++) {
-//					cout << b[i][j] << " \n"[j==cols-1];
-//				}
-//		}
-//		cout << endl << endl;
+		// cout << endl << endl;
+		// for(int i=0; i<rows; i++) {
+		// 		for(int j=0; j<cols; j++) {
+		// 			cout << b[i][j] << " \n"[j==cols-1];
+		// 		}
+		// }
+		// cout << endl << endl;
 
 		if(noconflict) rec(0, 0);
 //		cout << endl; //comment it
