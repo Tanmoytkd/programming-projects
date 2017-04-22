@@ -24,13 +24,14 @@ struct dijkstra {
 
         while(!q.empty()) {
             int u  = q.top().second;
-            T dist = q.top().first;
+            q.pop();
+            //T d = q.top().first;
 
-            for(auto q: adj[u]) {
-                int v= q.first;
-                T d = q.second;
+            for(auto edge: adj[u]) {
+                int v= edge.first;
+                T d = edge.second;
 
-                if(dist[v]-d> dist[u]) {
+                if(dist[v]-d > dist[u]) {
                     dist[v]=d+dist[u];
                     parent[v]=u;
                     q.push({dist[v], v});
@@ -55,6 +56,25 @@ struct dijkstra {
 };
 
 int main() {
+    int tst, test=1;
+    cin >> tst;
+    while(tst--) {
+        int n, m, s, t;
+        cin >> n >> m >> s >> t;
+        dijkstra<int> d(n);
+        while(m--) {
+            int a, b, w;
+            cin >> a >> b >> w;
+            d.addEdge(a,b,w);
+        }
 
+        d.findShortestPath(s);
+
+        cout << "Case #" << test++ << ": ";
+        int x = d.shortest_distance(t);
+        if(x==numeric_limits<int>::max()) cout << "unreachable" << endl;
+        else cout << x << endl;
+
+    }
     return 0;
 }
