@@ -8,7 +8,7 @@ struct dijkstra {
     vector<T> dist;
     vector<int> parent;
 
-    dijkstra(int n): n(n+1), adj(n+1){} //dist and parent will be initialized during calculation
+    dijkstra(int n): n(n), adj(n){} //dist and parent will be initialized during calculation
 
     void addEdge(int a, int b, T w) {
         adj[a].push_back({b, w});
@@ -24,14 +24,13 @@ struct dijkstra {
 
         while(!q.empty()) {
             int u  = q.top().second;
-            q.pop();
-            //T d = q.top().first;
+            T dist = q.top().first;
 
-            for(auto edge: adj[u]) {
-                int v= edge.first;
-                T d = edge.second;
+            for(auto q: adj[u]) {
+                int v= q.first;
+                T d = q.second;
 
-                if(dist[v]-d > dist[u]) {
+                if(dist[v]-d> dist[u]) {
                     dist[v]=d+dist[u];
                     parent[v]=u;
                     q.push({dist[v], v});
@@ -56,27 +55,6 @@ struct dijkstra {
 };
 
 int main() {
-    int tst, t=1;
-    cin >> tst;
 
-    while(tst--) {
-        int n, m, s, f;
-        cin >> n >> m >> s >> f;
-        dijkstra<int> d(n);
-
-        while(m--) {
-            int a, b, w;
-            cin >> a >> b >> w;
-
-            d.addEdge(a,b,w);
-        }
-
-        d.findShortestPath(s);
-
-        int dist = d.shortest_distance(f);
-
-        if(dist == numeric_limits<int>::max()) cout << "NONE" << endl;
-        else cout << dist << endl;
-    }
     return 0;
 }

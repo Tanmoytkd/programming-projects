@@ -24,13 +24,14 @@ struct dijkstra {
 
         while(!q.empty()) {
             int u  = q.top().second;
-            T dist = q.top().first;
+            q.pop();
+            //T d = q.top().first;
 
-            for(auto q: adj[u]) {
-                int v= q.first;
-                T d = q.second;
+            for(auto edge: adj[u]) {
+                int v= edge.first;
+                T d = edge.second;
 
-                if(dist[v]-d> dist[u]) {
+                if(dist[v]-d > dist[u]) {
                     dist[v]=d+dist[u];
                     parent[v]=u;
                     q.push({dist[v], v});

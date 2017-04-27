@@ -12,7 +12,7 @@ struct dijkstra {
 
     void addEdge(int a, int b, T w) {
         adj[a].push_back({b, w});
-        adj[b].push_back({a, w});
+        //adj[b].push_back({a, w});
     }
 
     void findShortestPath(int src) {
@@ -56,27 +56,24 @@ struct dijkstra {
 };
 
 int main() {
-    int tst, t=1;
-    cin >> tst;
-
-    while(tst--) {
-        int n, m, s, f;
-        cin >> n >> m >> s >> f;
-        dijkstra<int> d(n);
-
-        while(m--) {
-            int a, b, w;
-            cin >> a >> b >> w;
-
-            d.addEdge(a,b,w);
-        }
-
-        d.findShortestPath(s);
-
-        int dist = d.shortest_distance(f);
-
-        if(dist == numeric_limits<int>::max()) cout << "NONE" << endl;
-        else cout << dist << endl;
+    int n, s, t;
+    cin >> n >> s >> t;
+    dijkstra<int> d(n);
+    int m;
+    cin >> m;
+    while(m--) {
+        int a, b, cost;
+        cin >> a >> b >> cost;
+        d.addEdge(a,b,cost);
     }
+
+    int cnt=0;
+    d.findShortestPath(s);
+    vector<int> & dist=d.dist;
+    for(int i=1; i<=n; i++) {
+
+        if(dist[i]<t) cnt++;
+    }
+    cout << cnt << endl;
     return 0;
 }
