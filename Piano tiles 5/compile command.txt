@@ -1,0 +1,2 @@
+g++ -o piano piano.cpp -lgdi32
+piano
