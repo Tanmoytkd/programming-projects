@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1452231390 source:g:\tanmoytkd\projects\bulb switcher\main.cpp
+	<iostream>
+	<vector>
+

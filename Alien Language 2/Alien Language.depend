@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1441380611 source:g:\tanmoytkd\projects\alien language 2\main.cpp
-	<iostream>
-	<string>
-	<fstream>
-	<vector>
-

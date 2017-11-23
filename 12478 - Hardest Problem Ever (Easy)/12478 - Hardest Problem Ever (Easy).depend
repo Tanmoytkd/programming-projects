@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1457849218 source:g:\tanmoytkd\projects\12478 - hardest problem ever (easy)\main.cpp
-	<iostream>
-	<string>
-	<vector>
-	<algorithm>
-	<cstdio>
-

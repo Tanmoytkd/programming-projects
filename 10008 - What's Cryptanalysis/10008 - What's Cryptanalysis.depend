@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1459395883 source:g:\tanmoytkd\projects\10008 - what's cryptanalysis\main.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	<ctype.h>
-

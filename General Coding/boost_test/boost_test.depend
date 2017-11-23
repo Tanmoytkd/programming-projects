@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1473500717 source:g:\tanmoytkd\projects\boost_test\main.cpp
+	<iostream>
+	<boost/filesystem.hpp>
+

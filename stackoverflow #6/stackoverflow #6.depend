@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1443789978 source:g:\tanmoytkd\projects\stackoverflow #6\main.cpp
-	<iostream>
-	<regex>
-	<string>
-

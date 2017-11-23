@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1457019673 source:g:\tanmoytkd\projects\aysha problem (string input)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

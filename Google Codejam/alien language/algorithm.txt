@@ -1,0 +1,22 @@
+get L, D, N
+get the words
+for each case 
+	create vector for possibilities (f1)
+		for each possibility
+			create a new word (f2)
+				check new word
+					count ++
+	return count
+
+
+f1:
+
+startpos=0, endpos=0;
+if startpos -> "("
+		endpos -> ")"
+		until endpos insert possibilities
+
+else insert possibility, update startpos,endpos
+
+f2:
+

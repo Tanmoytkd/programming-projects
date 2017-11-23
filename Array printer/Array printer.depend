@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1434017781 source:c:\users\tanmoy\desktop\projects\array printer\main.cpp
-	<iostream>
-	<cstdlib>
-	<ctime>
-

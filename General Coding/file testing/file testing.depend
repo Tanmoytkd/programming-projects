@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1441092500 source:g:\tanmoytkd\projects\file testing\main.cpp
+	<iostream>
+	<fstream>
+
