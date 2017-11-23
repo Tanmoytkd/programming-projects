@@ -1,7 +1,4 @@
-6
-abcd
-aaaa
-abc
-aab
-abababaabababa
-pqrsabcdpqrs
+2 3
+-2 -3 -4
+-3 -2 -3
+2 1
