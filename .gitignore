@@ -2,3 +2,5 @@ desktop.ini
 *.exe
 *.o
 *.out
+output.txt
+input.txt
