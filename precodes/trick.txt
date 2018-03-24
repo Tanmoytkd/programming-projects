@@ -1,0 +1,1 @@
+a middle value of a/b and c/d is (a+c)/(b+d)
