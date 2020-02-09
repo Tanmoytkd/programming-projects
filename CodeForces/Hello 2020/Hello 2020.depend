@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1578627877 source:c:\users\user\desktop\hello 2020\main.cpp
+	<iostream>
+
+1578628928 source:c:\users\user\desktop\hello 2020\c.cpp
+	<bits/stdc++.h>
+
